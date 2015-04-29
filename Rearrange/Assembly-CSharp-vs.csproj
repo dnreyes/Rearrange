@@ -46,10 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BackgroundBlur.cs" />
      <Compile Include="Assets\Scripts\MainCharacter.cs" />
-     <Compile Include="Assets\Scripts\WindCharacter.cs" />
-     <Compile Include="Assets\Scripts\WindPad.cs" />
+     <Compile Include="Assets\Scripts\TouchController.cs" />
+     <Compile Include="Assets\Scripts\TouchZone.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
