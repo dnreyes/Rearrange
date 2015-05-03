@@ -1,19 +1,28 @@
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
-public class TouchController : MonoBehaviour
-{
-	[SerializeField]
-	private TouchZone touchZone;
+public class TouchController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () 
-  	{
-		touchZone.OnTouchZonePointerUp += OnTouch;
+	void Update () {
+        
 	}
-	
-	private void OnTouch(Vector2 sourcePosition) 
-  	{
-    	//RaycastHit2D hit = Physics2D.Raycast(sourcePosition, 
-	}
+
+    void OnGUI()
+    {
+        foreach (Touch touch in Input.touches)
+        {
+            //For Debugging Purposes
+            string message = "";
+            message += "ID: " + touch.fingerId + "\n";
+            message += "Phase " + touch.phase.ToString() + "\n";
+            message += "Taps: " + touch.tapCount + "\n";
+            message += "Pos X: " + touch.position.x + "\n";
+            message += "Pos Y: " + touch.position.y + "\n";
+
+            int num = touch.fingerId;
+            GUI.Label(new Rect(0 + 130 * num, 0, 120, 100), message);
+        }
+    }
+
 }
