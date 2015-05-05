@@ -1,15 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class SampleDoor : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	public Text displayText;
+
+	void onMouseOver() {
+		if (Input.GetMouseButtonDown (0)) {
+			displayText.text = "yellow";
+		} else {
+			print ("poop");
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }
