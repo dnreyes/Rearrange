@@ -4,9 +4,9 @@ using System.Collections;
 
 public class TouchController : MonoBehaviour {
 
-	void Update () {
-        
-	}
+//	void Update () {
+//        
+//	}
 
     void OnGUI()
     {
