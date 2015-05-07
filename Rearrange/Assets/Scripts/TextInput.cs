@@ -21,9 +21,12 @@ public class TextInput: MonoBehaviour {
 			//save user input in a string
 			sInput = iInput.text;
 		}
-		else if (sInput.Equals("hole")) {
-			// set the text field to win state
+
+        //Error???
+		/*else if (sInput.Equals("hole")) {
+			//set the text field to win state
 			tInput.text = "yay! you won!";
 		}
+        */
 	}
 }
