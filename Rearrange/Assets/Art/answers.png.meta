@@ -1,0 +1,671 @@
+fileFormatVersion: 2
+guid: 4d6066ba45f90489d901ac9e19b86582
+timeCreated: 1431292102
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: key0001 copy
+    21300002: key0002 copy
+    21300004: key0003 copy
+    21300006: key0004 copy
+    21300008: key0005 copy
+    21300010: key0006 copy
+    21300012: key0007 copy
+    21300014: key0008 copy
+    21300016: key0009 copy
+    21300018: key0010 copy
+    21300020: key0011 copy
+    21300022: key0012 copy
+    21300024: key0013 copy
+    21300026: key0014 copy
+    21300028: key0015 copy
+    21300030: key0016 copy
+    21300032: key0017 copy
+    21300034: key0018 copy
+    21300036: key0019 copy
+    21300038: key0020 copy
+    21300040: key0021 copy
+    21300042: key0022 copy
+    21300044: key0023 copy
+    21300046: key0024 copy
+    21300048: key0025 copy
+    21300050: key0026 copy
+    21300052: key0027 copy
+    21300054: key0028 copy
+    21300056: key0029 copy
+    21300058: key0030 copy
+    21300060: key0031 copy
+    21300062: key0032 copy
+    21300064: key0033 copy
+    21300066: key0034 copy
+    21300068: key0035 copy
+    21300070: key0036 copy
+    21300072: key0037 copy
+    21300074: key0038 copy
+    21300076: key0039 copy
+    21300078: key0040 copy
+    21300080: key0041 copy
+    21300082: key0042 copy
+    21300084: key0043 copy
+    21300086: key0044 copy
+    21300088: key0045 copy
+    21300090: key0046 copy
+    21300092: key0047 copy
+    21300094: key0048 copy
+    21300096: key0049 copy
+    21300098: key0050 copy
+    21300100: key0051 copy
+    21300102: key0052 copy
+    21300104: key0053 copy
+    21300106: key0054 copy
+    21300108: key0055 copy
+    21300110: key0056 copy
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: key0001 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 929
+        width: 11
+        height: 13
+      alignment: 9
+      pivot: {x: .545454562, y: -1.38461542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0002 copy
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 923
+        width: 30
+        height: 19
+      alignment: 9
+      pivot: {x: .833333313, y: -.684210539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0003 copy
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 918
+        width: 26
+        height: 24
+      alignment: 9
+      pivot: {x: .846153855, y: -.333333343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0004 copy
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 914
+        width: 33
+        height: 28
+      alignment: 9
+      pivot: {x: .818181813, y: -.142857149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0005 copy
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 893
+        width: 33
+        height: 49
+      alignment: 9
+      pivot: {x: .75757575, y: .346938789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0006 copy
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 875
+        width: 32
+        height: 67
+      alignment: 9
+      pivot: {x: .8125, y: .522388041}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0007 copy
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 872
+        width: 33
+        height: 70
+      alignment: 9
+      pivot: {x: .75757575, y: .54285717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0008 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 795
+        width: 35
+        height: 75
+      alignment: 9
+      pivot: {x: .771428585, y: .546666682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0009 copy
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 796
+        width: 36
+        height: 74
+      alignment: 9
+      pivot: {x: .75, y: .554054081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0010 copy
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 795
+        width: 34
+        height: 75
+      alignment: 9
+      pivot: {x: .764705896, y: .560000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0011 copy
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 797
+        width: 33
+        height: 73
+      alignment: 9
+      pivot: {x: .75757575, y: .547945201}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0012 copy
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 792
+        width: 37
+        height: 78
+      alignment: 9
+      pivot: {x: .67567569, y: .538461566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0013 copy
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 796
+        width: 40
+        height: 74
+      alignment: 9
+      pivot: {x: .600000024, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0014 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 717
+        width: 48
+        height: 73
+      alignment: 9
+      pivot: {x: .520833313, y: .465753436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0015 copy
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 715
+        width: 61
+        height: 75
+      alignment: 9
+      pivot: {x: .573770463, y: .466666669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0016 copy
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 714
+        width: 84
+        height: 76
+      alignment: 9
+      pivot: {x: .547619045, y: .486842096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0017 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 635
+        width: 98
+        height: 77
+      alignment: 9
+      pivot: {x: .581632674, y: .467532456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0018 copy
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 638
+        width: 136
+        height: 74
+      alignment: 9
+      pivot: {x: .632352948, y: .432432443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0019 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 556
+        width: 153
+        height: 77
+      alignment: 9
+      pivot: {x: .673202634, y: .480519474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0020 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 474
+        width: 163
+        height: 80
+      alignment: 9
+      pivot: {x: .662576675, y: .462500006}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0021 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 394
+        width: 165
+        height: 78
+      alignment: 9
+      pivot: {x: .678787887, y: .461538464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0022 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0023 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0024 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0025 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0026 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0027 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0028 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0029 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0030 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0031 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0032 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 313
+        width: 179
+        height: 79
+      alignment: 9
+      pivot: {x: .670391083, y: .443037987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0033 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 234
+        width: 183
+        height: 77
+      alignment: 9
+      pivot: {x: .655737698, y: .337662339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0034 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 148
+        width: 150
+        height: 84
+      alignment: 9
+      pivot: {x: .620000005, y: .178571433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0035 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 34
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: .311111122, y: .125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0036 copy
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 62
+        width: 40
+        height: 84
+      alignment: 9
+      pivot: {x: -.400000006, y: .15476191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0037 copy
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 75
+        width: 39
+        height: 71
+      alignment: 9
+      pivot: {x: -.948717952, y: .253521115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0038 copy
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 94
+        width: 31
+        height: 52
+      alignment: 9
+      pivot: {x: -1.45161295, y: .269230783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0039 copy
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 106
+        width: 25
+        height: 40
+      alignment: 9
+      pivot: {x: -2, y: .324999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0040 copy
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 17
+        height: 24
+      alignment: 9
+      pivot: {x: -3.17647052, y: .208333328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0041 copy
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: -2.78947377, y: .239999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0042 copy
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: -2.78947377, y: .239999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0043 copy
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: -2.78947377, y: .239999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0044 copy
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: -2.78947377, y: .239999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0045 copy
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: -2.78947377, y: .239999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0046 copy
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 7
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: -2.78947377, y: .239999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0047 copy
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4
+        width: 25
+        height: 28
+      alignment: 9
+      pivot: {x: -2.16000009, y: .285714298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0048 copy
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 14
+        width: 27
+        height: 18
+      alignment: 9
+      pivot: {x: -1.96296299, y: .388888896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0049 copy
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: -2.03846145, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0050 copy
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: -2.03846145, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0051 copy
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: -2.03846145, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0052 copy
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: -2.03846145, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0053 copy
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: -2.03846145, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0054 copy
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: -2.03846145, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0055 copy
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: -2.03846145, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: key0056 copy
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 12
+        width: 26
+        height: 20
+      alignment: 9
+      pivot: {x: -2.03846145, y: .449999988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
