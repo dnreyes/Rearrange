@@ -52,7 +52,6 @@
      <Compile Include="Assets\Scripts\TextInput.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
      <Compile Include="Assets\Scripts\WordManager.cs" />
-     <Compile Include="Assets\Scripts\clickable.cs" />
      <None Include="Assets\Resources\WordBank.xml" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">
