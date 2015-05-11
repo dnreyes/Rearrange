@@ -1,0 +1,2838 @@
+fileFormatVersion: 2
+guid: 4d6066ba45f90489d901ac9e19b86582
+timeCreated: 1431309945
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: level1_cheese_png-seq-level1_cheese0001
+    21300002: level1_cheese_png-seq-level1_cheese0002
+    21300004: level1_cheese_png-seq-level1_cheese0003
+    21300006: level1_cheese_png-seq-level1_cheese0004
+    21300008: level1_cheese_png-seq-level1_cheese0005
+    21300010: level1_cheese_png-seq-level1_cheese0006
+    21300012: level1_cheese_png-seq-level1_cheese0007
+    21300014: level1_cheese_png-seq-level1_cheese0008
+    21300016: level1_cheese_png-seq-level1_cheese0009
+    21300018: level1_cheese_png-seq-level1_cheese0010
+    21300020: level1_cheese_png-seq-level1_cheese0011
+    21300022: level1_cheese_png-seq-level1_cheese0012
+    21300024: level1_cheese_png-seq-level1_cheese0013
+    21300026: level1_cheese_png-seq-level1_cheese0014
+    21300028: level1_cheese_png-seq-level1_cheese0015
+    21300030: level1_cheese_png-seq-level1_cheese0016
+    21300032: level1_cheese_png-seq-level1_cheese0017
+    21300034: level1_cheese_png-seq-level1_cheese0018
+    21300036: level1_cheese_png-seq-level1_cheese0019
+    21300038: level1_cheese_png-seq-level1_cheese0020
+    21300040: level1_cheese_png-seq-level1_cheese0021
+    21300042: level1_cheese_png-seq-level1_cheese0022
+    21300044: level1_cheese_png-seq-level1_cheese0023
+    21300046: level1_cheese_png-seq-level1_cheese0024
+    21300048: level1_cheese_png-seq-level1_cheese0025
+    21300050: level1_cheese_png-seq-level1_cheese0026
+    21300052: level1_cheese_png-seq-level1_cheese0027
+    21300054: level1_cheese_png-seq-level1_cheese0028
+    21300056: level1_cheese_png-seq-level1_cheese0029
+    21300058: level1_cheese_png-seq-level1_cheese0030
+    21300060: level1_cheese_png-seq-level1_cheese0031
+    21300062: level1_code_png-seq-level1_code0001
+    21300064: level1_code_png-seq-level1_code0002
+    21300066: level1_code_png-seq-level1_code0003
+    21300068: level1_code_png-seq-level1_code0004
+    21300070: level1_code_png-seq-level1_code0005
+    21300072: level1_code_png-seq-level1_code0006
+    21300074: level1_code_png-seq-level1_code0007
+    21300076: level1_code_png-seq-level1_code0008
+    21300078: level1_code_png-seq-level1_code0009
+    21300080: level1_code_png-seq-level1_code0010
+    21300082: level1_code_png-seq-level1_code0011
+    21300084: level1_code_png-seq-level1_code0012
+    21300086: level1_code_png-seq-level1_code0013
+    21300088: level1_code_png-seq-level1_code0014
+    21300090: level1_code_png-seq-level1_code0015
+    21300092: level1_code_png-seq-level1_code0016
+    21300094: level1_code_png-seq-level1_code0017
+    21300096: level1_code_png-seq-level1_code0018
+    21300098: level1_code_png-seq-level1_code0019
+    21300100: level1_code_png-seq-level1_code0020
+    21300102: level1_code_png-seq-level1_code0021
+    21300104: level1_code_png-seq-level1_code0022
+    21300106: level1_code_png-seq-level1_code0023
+    21300108: level1_code_png-seq-level1_code0024
+    21300110: level1_code_png-seq-level1_code0025
+    21300112: level1_code_png-seq-level1_code0026
+    21300114: level1_code_png-seq-level1_code0027
+    21300116: level1_code_png-seq-level1_code0028
+    21300118: level1_code_png-seq-level1_code0029
+    21300120: level1_code_png-seq-level1_code0030
+    21300122: level1_code_png-seq-level1_code0031
+    21300124: level1_code_png-seq-level1_code0032
+    21300126: level1_code_png-seq-level1_code0033
+    21300128: level1_code_png-seq-level1_code0034
+    21300130: level1_code_png-seq-level1_code0035
+    21300132: level1_code_png-seq-level1_code0036
+    21300134: level1_code_png-seq-level1_code0037
+    21300136: level1_code_png-seq-level1_code0038
+    21300138: level1_code_png-seq-level1_code0039
+    21300140: level1_code_png-seq-level1_code0040
+    21300142: level1_code_png-seq-level1_code0041
+    21300144: level1_code_png-seq-level1_code0042
+    21300146: level1_code_png-seq-level1_code0043
+    21300148: level1_code_png-seq-level1_code0044
+    21300150: level1_code_png-seq-level1_code0045
+    21300152: level1_dart_png-seq-level1_dart0001
+    21300154: level1_dart_png-seq-level1_dart0002
+    21300156: level1_dart_png-seq-level1_dart0003
+    21300158: level1_dart_png-seq-level1_dart0004
+    21300160: level1_dart_png-seq-level1_dart0005
+    21300162: level1_dart_png-seq-level1_dart0006
+    21300164: level1_dart_png-seq-level1_dart0007
+    21300166: level1_dart_png-seq-level1_dart0008
+    21300168: level1_dart_png-seq-level1_dart0009
+    21300170: level1_dart_png-seq-level1_dart0010
+    21300172: level1_dart_png-seq-level1_dart0011
+    21300174: level1_dart_png-seq-level1_dart0012
+    21300176: level1_dart_png-seq-level1_dart0013
+    21300178: level1_dart_png-seq-level1_dart0014
+    21300180: level1_dart_png-seq-level1_dart0015
+    21300182: level1_dart_png-seq-level1_dart0016
+    21300184: level1_dart_png-seq-level1_dart0017
+    21300186: level1_dart_png-seq-level1_dart0018
+    21300188: level1_dart_png-seq-level1_dart0019
+    21300190: level1_dart_png-seq-level1_dart0020
+    21300192: level1_dart_png-seq-level1_dart0021
+    21300194: level1_dart_png-seq-level1_dart0022
+    21300196: level1_dart_png-seq-level1_dart0023
+    21300198: level1_dart_png-seq-level1_dart0024
+    21300200: level1_delete_png-seq-level1_delete0001
+    21300202: level1_delete_png-seq-level1_delete0002
+    21300204: level1_delete_png-seq-level1_delete0003
+    21300206: level1_delete_png-seq-level1_delete0004
+    21300208: level1_delete_png-seq-level1_delete0005
+    21300210: level1_delete_png-seq-level1_delete0006
+    21300212: level1_delete_png-seq-level1_delete0007
+    21300214: level1_delete_png-seq-level1_delete0008
+    21300216: level1_delete_png-seq-level1_delete0009
+    21300218: level1_delete_png-seq-level1_delete0010
+    21300220: level1_delete_png-seq-level1_delete0011
+    21300222: level1_delete_png-seq-level1_delete0012
+    21300224: level1_delete_png-seq-level1_delete0013
+    21300226: level1_delete_png-seq-level1_delete0014
+    21300228: level1_delete_png-seq-level1_delete0015
+    21300230: level1_delete_png-seq-level1_delete0016
+    21300232: level1_delete_png-seq-level1_delete0017
+    21300234: level1_delete_png-seq-level1_delete0018
+    21300236: level1_delete_png-seq-level1_delete0019
+    21300238: level1_delete_png-seq-level1_delete0020
+    21300240: level1_delete_png-seq-level1_delete0021
+    21300242: level1_delete_png-seq-level1_delete0022
+    21300244: level1_delete_png-seq-level1_delete0023
+    21300246: level1_delete_png-seq-level1_delete0024
+    21300248: level1_delete_png-seq-level1_delete0025
+    21300250: level1_delete_png-seq-level1_delete0026
+    21300252: level1_delete_png-seq-level1_delete0027
+    21300254: level1_delete_png-seq-level1_delete0028
+    21300256: level1_delete_png-seq-level1_delete0029
+    21300258: level1_delete_png-seq-level1_delete0030
+    21300260: level1_delete_png-seq-level1_delete0031
+    21300262: level1_delete_png-seq-level1_delete0032
+    21300264: level1_delete_png-seq-level1_delete0033
+    21300266: level1_delete_png-seq-level1_delete0034
+    21300268: level1_delete_png-seq-level1_delete0035
+    21300270: level1_delete_png-seq-level1_delete0036
+    21300272: level1_delete_png-seq-level1_delete0037
+    21300274: level1_delete_png-seq-level1_delete0038
+    21300276: level1_delete_png-seq-level1_delete0039
+    21300278: level1_delete_png-seq-level1_delete0040
+    21300280: level1_delete_png-seq-level1_delete0041
+    21300282: level1_delete_png-seq-level1_delete0042
+    21300284: level1_delete_png-seq-level1_delete0043
+    21300286: level1_delete_png-seq-level1_delete0044
+    21300288: level1_delete_png-seq-level1_delete0045
+    21300290: level1_kite_png-seq-level1_kite0001
+    21300292: level1_kite_png-seq-level1_kite0002
+    21300294: level1_kite_png-seq-level1_kite0003
+    21300296: level1_kite_png-seq-level1_kite0004
+    21300298: level1_kite_png-seq-level1_kite0005
+    21300300: level1_kite_png-seq-level1_kite0006
+    21300302: level1_kite_png-seq-level1_kite0007
+    21300304: level1_kite_png-seq-level1_kite0008
+    21300306: level1_kite_png-seq-level1_kite0009
+    21300308: level1_kite_png-seq-level1_kite0010
+    21300310: level1_kite_png-seq-level1_kite0011
+    21300312: level1_kite_png-seq-level1_kite0012
+    21300314: level1_kite_png-seq-level1_kite0013
+    21300316: level1_kite_png-seq-level1_kite0014
+    21300318: level1_kite_png-seq-level1_kite0015
+    21300320: level1_kite_png-seq-level1_kite0016
+    21300322: level1_kite_png-seq-level1_kite0017
+    21300324: level1_kite_png-seq-level1_kite0018
+    21300326: level1_kite_png-seq-level1_kite0019
+    21300328: level1_kite_png-seq-level1_kite0020
+    21300330: level1_kite_png-seq-level1_kite0021
+    21300332: level1_kite_png-seq-level1_kite0022
+    21300334: level1_kite_png-seq-level1_kite0023
+    21300336: level1_kite_png-seq-level1_kite0024
+    21300338: level1_kite_png-seq-level1_kite0025
+    21300340: level1_kite_png-seq-level1_kite0026
+    21300342: level1_kite_png-seq-level1_kite0027
+    21300344: level1_kite_png-seq-level1_kite0028
+    21300346: level1_kite_png-seq-level1_kite0029
+    21300348: level1_kite_png-seq-level1_kite0030
+    21300350: level1_kite_png-seq-level1_kite0031
+    21300352: level1_kite_png-seq-level1_kite0032
+    21300354: level1_kite_png-seq-level1_kite0033
+    21300356: level1_kite_png-seq-level1_kite0034
+    21300358: level1_kite_png-seq-level1_kite0035
+    21300360: level1_kite_png-seq-level1_kite0036
+    21300362: level1_kite_png-seq-level1_kite0037
+    21300364: level1_kite_png-seq-level1_kite0038
+    21300366: level1_kite_png-seq-level1_kite0039
+    21300368: level1_kite_png-seq-level1_kite0040
+    21300370: level1_kite_png-seq-level1_kite0041
+    21300372: level1_kite_png-seq-level1_kite0042
+    21300374: level1_kite_png-seq-level1_kite0043
+    21300376: level1_kite_png-seq-level1_kite0044
+    21300378: level1_kite_png-seq-level1_kite0045
+    21300380: level1_kite_png-seq-level1_kite0046
+    21300382: level1_kite_png-seq-level1_kite0047
+    21300384: level1_kite_png-seq-level1_kite0048
+    21300386: level1_kite_png-seq-level1_kite0049
+    21300388: level1_kite_png-seq-level1_kite0050
+    21300390: level1_kite_png-seq-level1_kite0051
+    21300392: level1_kite_png-seq-level1_kite0052
+    21300394: level1_kite_png-seq-level1_kite0053
+    21300396: level1_kite_png-seq-level1_kite0054
+    21300398: level1_oil_png-seq-level1_oil0001
+    21300400: level1_oil_png-seq-level1_oil0002
+    21300402: level1_oil_png-seq-level1_oil0003
+    21300404: level1_oil_png-seq-level1_oil0004
+    21300406: level1_oil_png-seq-level1_oil0005
+    21300408: level1_oil_png-seq-level1_oil0006
+    21300410: level1_oil_png-seq-level1_oil0007
+    21300412: level1_oil_png-seq-level1_oil0008
+    21300414: level1_oil_png-seq-level1_oil0009
+    21300416: level1_oil_png-seq-level1_oil0010
+    21300418: level1_oil_png-seq-level1_oil0011
+    21300420: level1_oil_png-seq-level1_oil0012
+    21300422: level1_oil_png-seq-level1_oil0013
+    21300424: level1_oil_png-seq-level1_oil0014
+    21300426: level1_oil_png-seq-level1_oil0015
+    21300428: level1_oil_png-seq-level1_oil0016
+    21300430: level1_oil_png-seq-level1_oil0017
+    21300432: level1_oil_png-seq-level1_oil0018
+    21300434: level1_oil_png-seq-level1_oil0019
+    21300436: level1_oil_png-seq-level1_oil0020
+    21300438: level1_oil_png-seq-level1_oil0021
+    21300440: level1_oil_png-seq-level1_oil0022
+    21300442: level1_oil_png-seq-level1_oil0023
+    21300444: level1_oil_png-seq-level1_oil0024
+    21300446: level1_oil_png-seq-level1_oil0025
+    21300448: level1_oil_png-seq-level1_oil0026
+    21300450: level1_oil_png-seq-level1_oil0027
+    21300452: level1_oil_png-seq-level1_oil0028
+    21300454: level1_oil_png-seq-level1_oil0029
+    21300456: level1_oil_png-seq-level1_oil0030
+    21300458: level1_oil_png-seq-level1_oil0031
+    21300460: level1_oil_png-seq-level1_oil0032
+    21300462: level1_oil_png-seq-level1_oil0033
+    21300464: level1_oil_png-seq-level1_oil0034
+    21300466: level1_oil_png-seq-level1_oil0035
+    21300468: level1_oil_png-seq-level1_oil0036
+    21300470: level1_oil_png-seq-level1_oil0037
+    21300472: level1_oil_png-seq-level1_oil0038
+    21300474: level1_oil_png-seq-level1_oil0039
+    21300476: level1_oil_png-seq-level1_oil0040
+    21300478: level1_oil_png-seq-level1_oil0041
+    21300480: level1_oil_png-seq-level1_oil0042
+    21300482: level1_oil_png-seq-level1_oil0043
+    21300484: level1_oil_png-seq-level1_oil0044
+    21300486: level1_oil_png-seq-level1_oil0045
+    21300488: level1_oil_png-seq-level1_oil0046
+    21300490: level1_oil_png-seq-level1_oil0047
+    21300492: level1_oil_png-seq-level1_oil0048
+    21300494: level1_oil_png-seq-level1_oil0049
+    21300496: level1_oil_png-seq-level1_oil0050
+    21300498: level1_oil_png-seq-level1_oil0051
+    21300500: level1_oil_png-seq-level1_oil0052
+    21300502: level1_oil_png-seq-level1_oil0053
+    21300504: level1_oil_png-seq-level1_oil0054
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: level1_cheese_png-seq-level1_cheese0001
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7179
+        width: 106
+        height: 207
+      alignment: 9
+      pivot: {x: 9.05660343, y: 2.27053142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0002
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 7179
+        width: 147
+        height: 207
+      alignment: 9
+      pivot: {x: 6.53061247, y: 2.26570058}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0003
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 7179
+        width: 188
+        height: 207
+      alignment: 9
+      pivot: {x: 5.10638285, y: 2.2608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0004
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 7179
+        width: 208
+        height: 207
+      alignment: 9
+      pivot: {x: 4.50961542, y: 2.2608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0005
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 7193
+        width: 205
+        height: 193
+      alignment: 9
+      pivot: {x: 4.31707335, y: 2.44041443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0006
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 7174
+        width: 206
+        height: 212
+      alignment: 9
+      pivot: {x: 4.05825233, y: 2.21226406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0007
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 7178
+        width: 208
+        height: 208
+      alignment: 9
+      pivot: {x: 3.78846145, y: 2.23557687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0008
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 7179
+        width: 210
+        height: 207
+      alignment: 9
+      pivot: {x: 3.5142858, y: 2.2608695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0009
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 7175
+        width: 207
+        height: 211
+      alignment: 9
+      pivot: {x: 3.29468608, y: 2.23222756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0010
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 7179
+        width: 212
+        height: 207
+      alignment: 9
+      pivot: {x: 2.97641516, y: 2.25603867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0011
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 7179
+        width: 212
+        height: 207
+      alignment: 9
+      pivot: {x: 2.97641516, y: 2.25603867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0012
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 7179
+        width: 212
+        height: 207
+      alignment: 9
+      pivot: {x: 2.97641516, y: 2.25603867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0013
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 7168
+        width: 213
+        height: 218
+      alignment: 9
+      pivot: {x: 2.69014096, y: 2.25688076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0014
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 7168
+        width: 213
+        height: 218
+      alignment: 9
+      pivot: {x: 2.69014096, y: 2.25688076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0015
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 7168
+        width: 213
+        height: 218
+      alignment: 9
+      pivot: {x: 2.69014096, y: 2.25688076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0016
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 7168
+        width: 213
+        height: 218
+      alignment: 9
+      pivot: {x: 2.69014096, y: 2.25688076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0017
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 7094
+        width: 339
+        height: 292
+      alignment: 9
+      pivot: {x: 1.72566366, y: 1.62328768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0018
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 7094
+        width: 339
+        height: 292
+      alignment: 9
+      pivot: {x: 1.72566366, y: 1.62328768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0019
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 7094
+        width: 339
+        height: 292
+      alignment: 9
+      pivot: {x: 1.72566366, y: 1.62328768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0020
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 7258
+        width: 225
+        height: 128
+      alignment: 9
+      pivot: {x: 2.67555547, y: 3.6015625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0021
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 7258
+        width: 225
+        height: 128
+      alignment: 9
+      pivot: {x: 2.67555547, y: 3.6015625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0022
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0023
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0024
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0025
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0026
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0027
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0028
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0029
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0030
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_cheese_png-seq-level1_cheese0031
+      rect:
+        serializedVersion: 2
+        x: 2702
+        y: 7278
+        width: 237
+        height: 108
+      alignment: 9
+      pivot: {x: 2.58649778, y: 4.33333349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0001
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0002
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0003
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0004
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0005
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0006
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0007
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0008
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0009
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0010
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0011
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0012
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0013
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0014
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0015
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0016
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0017
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0018
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0019
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0020
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0021
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0022
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0023
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0024
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0025
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0026
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0027
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0028
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0029
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0030
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0031
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0032
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0033
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0034
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0035
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0036
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0037
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0038
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0039
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0040
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0041
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0042
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0043
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0044
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_code_png-seq-level1_code0045
+      rect:
+        serializedVersion: 2
+        x: 2941
+        y: 7238
+        width: 94
+        height: 148
+      alignment: 9
+      pivot: {x: -2.85106373, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0001
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 6473
+        width: 1112
+        height: 913
+      alignment: 9
+      pivot: {x: .136690646, y: .591456711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0002
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5558
+        width: 1112
+        height: 913
+      alignment: 9
+      pivot: {x: .136690646, y: .591456711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0003
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 5558
+        width: 1112
+        height: 913
+      alignment: 9
+      pivot: {x: .136690646, y: .591456711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0004
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 5558
+        width: 1112
+        height: 913
+      alignment: 9
+      pivot: {x: .136690646, y: .591456711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0005
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 5635
+        width: 1008
+        height: 836
+      alignment: 9
+      pivot: {x: .149801582, y: .556220114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0006
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4828
+        width: 874
+        height: 728
+      alignment: 9
+      pivot: {x: .172768876, y: .490384609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0007
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 4935
+        width: 740
+        height: 621
+      alignment: 9
+      pivot: {x: .204054058, y: .402576476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0008
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 5043
+        width: 606
+        height: 513
+      alignment: 9
+      pivot: {x: .249174923, y: .276803106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0009
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 5149
+        width: 473
+        height: 407
+      alignment: 9
+      pivot: {x: .321353078, y: .0835380852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0010
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 5256
+        width: 340
+        height: 300
+      alignment: 9
+      pivot: {x: .447058827, y: -.24333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0011
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 5303
+        width: 263
+        height: 253
+      alignment: 9
+      pivot: {x: .577946782, y: -.474308312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0012
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 5303
+        width: 263
+        height: 253
+      alignment: 9
+      pivot: {x: .577946782, y: -.474308312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0013
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 5299
+        width: 265
+        height: 257
+      alignment: 9
+      pivot: {x: .569811344, y: -.443579763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0014
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 5299
+        width: 265
+        height: 257
+      alignment: 9
+      pivot: {x: .569811344, y: -.443579763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0015
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 5299
+        width: 265
+        height: 257
+      alignment: 9
+      pivot: {x: .569811344, y: -.443579763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0016
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 5299
+        width: 265
+        height: 257
+      alignment: 9
+      pivot: {x: .569811344, y: -.443579763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0017
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 5303
+        width: 263
+        height: 253
+      alignment: 9
+      pivot: {x: .577946782, y: -.474308312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0018
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 5303
+        width: 263
+        height: 253
+      alignment: 9
+      pivot: {x: .577946782, y: -.474308312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0019
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 5303
+        width: 263
+        height: 253
+      alignment: 9
+      pivot: {x: .577946782, y: -.474308312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0020
+      rect:
+        serializedVersion: 2
+        x: 3310
+        y: 5303
+        width: 263
+        height: 253
+      alignment: 9
+      pivot: {x: .577946782, y: -.474308312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0021
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 5299
+        width: 265
+        height: 257
+      alignment: 9
+      pivot: {x: .569811344, y: -.443579763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0022
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 5299
+        width: 265
+        height: 257
+      alignment: 9
+      pivot: {x: .569811344, y: -.443579763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0023
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 5299
+        width: 265
+        height: 257
+      alignment: 9
+      pivot: {x: .569811344, y: -.443579763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_dart_png-seq-level1_dart0024
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 5299
+        width: 265
+        height: 257
+      alignment: 9
+      pivot: {x: .569811344, y: -.443579763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0001
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 4819
+        width: 687
+        height: 737
+      alignment: 9
+      pivot: {x: -.0029112082, y: .644504726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0002
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 4819
+        width: 687
+        height: 737
+      alignment: 9
+      pivot: {x: -.0029112082, y: .644504726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0003
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 4819
+        width: 687
+        height: 737
+      alignment: 9
+      pivot: {x: -.0029112082, y: .644504726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0004
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3862
+        width: 869
+        height: 955
+      alignment: 9
+      pivot: {x: .207134634, y: .497382194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0005
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 3864
+        width: 868
+        height: 953
+      alignment: 9
+      pivot: {x: .206221193, y: .49842602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0006
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 3864
+        width: 868
+        height: 953
+      alignment: 9
+      pivot: {x: .206221193, y: .49842602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0007
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 3908
+        width: 720
+        height: 909
+      alignment: 9
+      pivot: {x: .0430555567, y: .558855891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0008
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 3901
+        width: 720
+        height: 916
+      alignment: 9
+      pivot: {x: .0430555567, y: .557860255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0009
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 3901
+        width: 720
+        height: 916
+      alignment: 9
+      pivot: {x: .0430555567, y: .557860255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0010
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 3936
+        width: 649
+        height: 881
+      alignment: 9
+      pivot: {x: -.0616332814, y: .612939835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0011
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 3936
+        width: 649
+        height: 881
+      alignment: 9
+      pivot: {x: -.0616332814, y: .612939835}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0012
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 3934
+        width: 653
+        height: 883
+      alignment: 9
+      pivot: {x: -.0551301688, y: .611551523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0013
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3058
+        width: 600
+        height: 802
+      alignment: 9
+      pivot: {x: -.148333326, y: .673316717}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0014
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3060
+        width: 599
+        height: 800
+      alignment: 9
+      pivot: {x: -.15025042, y: .675000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0015
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3060
+        width: 599
+        height: 800
+      alignment: 9
+      pivot: {x: -.15025042, y: .675000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0016
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 3217
+        width: 521
+        height: 643
+      alignment: 9
+      pivot: {x: -.372360855, y: .839813352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0017
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 3217
+        width: 521
+        height: 643
+      alignment: 9
+      pivot: {x: -.372360855, y: .839813352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0018
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 3220
+        width: 525
+        height: 640
+      alignment: 9
+      pivot: {x: -.371428579, y: .84375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0019
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 3436
+        width: 525
+        height: 424
+      alignment: 9
+      pivot: {x: -.600000024, y: 1.27358496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0020
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 3434
+        width: 527
+        height: 426
+      alignment: 9
+      pivot: {x: -.590132833, y: 1.26760566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0021
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 3434
+        width: 527
+        height: 426
+      alignment: 9
+      pivot: {x: -.590132833, y: 1.26760566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0022
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 3436
+        width: 525
+        height: 424
+      alignment: 9
+      pivot: {x: -.596190453, y: 1.27358496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0023
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 3436
+        width: 525
+        height: 424
+      alignment: 9
+      pivot: {x: -.596190453, y: 1.27358496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0024
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 3433
+        width: 520
+        height: 427
+      alignment: 9
+      pivot: {x: -.605769217, y: 1.26463699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0025
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 3433
+        width: 520
+        height: 427
+      alignment: 9
+      pivot: {x: -.605769217, y: 1.26463699}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0026
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 3436
+        width: 525
+        height: 424
+      alignment: 9
+      pivot: {x: -.600000024, y: 1.27358496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0027
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 3436
+        width: 525
+        height: 424
+      alignment: 9
+      pivot: {x: -.600000024, y: 1.27358496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0028
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 3434
+        width: 527
+        height: 426
+      alignment: 9
+      pivot: {x: -.590132833, y: 1.26760566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0029
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0030
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0031
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0032
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0033
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0034
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0035
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0036
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0037
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0038
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0039
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0040
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0041
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0042
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0043
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0044
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_delete_png-seq-level1_delete0045
+      rect:
+        serializedVersion: 2
+        x: 4360
+        y: 3695
+        width: 151
+        height: 165
+      alignment: 9
+      pivot: {x: -3.56291389, y: 2.87878799}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0001
+      rect:
+        serializedVersion: 2
+        x: 4513
+        y: 3780
+        width: 162
+        height: 80
+      alignment: 9
+      pivot: {x: 3.83333325, y: 6.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0002
+      rect:
+        serializedVersion: 2
+        x: 4513
+        y: 3780
+        width: 162
+        height: 80
+      alignment: 9
+      pivot: {x: 3.83333325, y: 6.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0003
+      rect:
+        serializedVersion: 2
+        x: 4513
+        y: 3780
+        width: 162
+        height: 80
+      alignment: 9
+      pivot: {x: 3.83333325, y: 6.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0004
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 3585
+        width: 280
+        height: 275
+      alignment: 9
+      pivot: {x: 2.2642858, y: 1.9636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0005
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 3585
+        width: 280
+        height: 275
+      alignment: 9
+      pivot: {x: 2.2642858, y: 1.9636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0006
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 3585
+        width: 280
+        height: 275
+      alignment: 9
+      pivot: {x: 2.2642858, y: 1.9636364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0007
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2602
+        width: 325
+        height: 454
+      alignment: 9
+      pivot: {x: 1.72000003, y: 1.18942726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0008
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2602
+        width: 325
+        height: 454
+      alignment: 9
+      pivot: {x: 1.72000003, y: 1.18942726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0009
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2602
+        width: 325
+        height: 454
+      alignment: 9
+      pivot: {x: 1.72000003, y: 1.18942726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0010
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2454
+        width: 446
+        height: 602
+      alignment: 9
+      pivot: {x: 1.24887896, y: .897009969}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0011
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2454
+        width: 446
+        height: 602
+      alignment: 9
+      pivot: {x: 1.24887896, y: .897009969}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0012
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 2454
+        width: 446
+        height: 602
+      alignment: 9
+      pivot: {x: 1.24887896, y: .897009969}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0013
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 2347
+        width: 512
+        height: 709
+      alignment: 9
+      pivot: {x: 1.04882812, y: .761636078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0014
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 2347
+        width: 512
+        height: 709
+      alignment: 9
+      pivot: {x: 1.04882812, y: .761636078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0015
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 2347
+        width: 512
+        height: 709
+      alignment: 9
+      pivot: {x: 1.04882812, y: .761636078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0016
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 2263
+        width: 599
+        height: 793
+      alignment: 9
+      pivot: {x: .864774644, y: .68095839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0017
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 2263
+        width: 599
+        height: 793
+      alignment: 9
+      pivot: {x: .864774644, y: .68095839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0018
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 2263
+        width: 599
+        height: 793
+      alignment: 9
+      pivot: {x: .864774644, y: .68095839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0019
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2144
+        width: 637
+        height: 912
+      alignment: 9
+      pivot: {x: .742543161, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0020
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2144
+        width: 637
+        height: 912
+      alignment: 9
+      pivot: {x: .742543161, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0021
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2144
+        width: 637
+        height: 912
+      alignment: 9
+      pivot: {x: .742543161, y: .592105269}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0022
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 2040
+        width: 722
+        height: 1016
+      alignment: 9
+      pivot: {x: .617728531, y: .531496048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0023
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 2040
+        width: 722
+        height: 1016
+      alignment: 9
+      pivot: {x: .617728531, y: .531496048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0024
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 2040
+        width: 722
+        height: 1016
+      alignment: 9
+      pivot: {x: .617728531, y: .531496048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0025
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 1976
+        width: 829
+        height: 1080
+      alignment: 9
+      pivot: {x: .551266611, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0026
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 1976
+        width: 829
+        height: 1080
+      alignment: 9
+      pivot: {x: .551266611, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0027
+      rect:
+        serializedVersion: 2
+        x: 3255
+        y: 1976
+        width: 829
+        height: 1080
+      alignment: 9
+      pivot: {x: .551266611, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0028
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 1976
+        width: 925
+        height: 1080
+      alignment: 9
+      pivot: {x: .488648653, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0029
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 1976
+        width: 925
+        height: 1080
+      alignment: 9
+      pivot: {x: .488648653, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0030
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 1976
+        width: 925
+        height: 1080
+      alignment: 9
+      pivot: {x: .488648653, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0031
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1004
+        width: 867
+        height: 970
+      alignment: 9
+      pivot: {x: .381776243, y: .443298966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0032
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1004
+        width: 867
+        height: 970
+      alignment: 9
+      pivot: {x: .381776243, y: .443298966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0033
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1004
+        width: 867
+        height: 970
+      alignment: 9
+      pivot: {x: .381776243, y: .443298966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0034
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1071
+        width: 662
+        height: 903
+      alignment: 9
+      pivot: {x: .290030211, y: .401993364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0035
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1071
+        width: 662
+        height: 903
+      alignment: 9
+      pivot: {x: .290030211, y: .401993364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0036
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1071
+        width: 662
+        height: 903
+      alignment: 9
+      pivot: {x: .290030211, y: .401993364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0037
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1199
+        width: 412
+        height: 775
+      alignment: 9
+      pivot: {x: .0364077687, y: .303225815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0038
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1199
+        width: 412
+        height: 775
+      alignment: 9
+      pivot: {x: .0364077687, y: .303225815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0039
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1199
+        width: 412
+        height: 775
+      alignment: 9
+      pivot: {x: .0364077687, y: .303225815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0040
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1326
+        width: 395
+        height: 648
+      alignment: 9
+      pivot: {x: -.0278481022, y: .166666672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0041
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1326
+        width: 395
+        height: 648
+      alignment: 9
+      pivot: {x: -.0278481022, y: .166666672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0042
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1326
+        width: 395
+        height: 648
+      alignment: 9
+      pivot: {x: -.0278481022, y: .166666672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0043
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 1549
+        width: 288
+        height: 425
+      alignment: 9
+      pivot: {x: -.350694448, y: -.270588249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0044
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 1549
+        width: 288
+        height: 425
+      alignment: 9
+      pivot: {x: -.350694448, y: -.270588249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0045
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 1549
+        width: 288
+        height: 425
+      alignment: 9
+      pivot: {x: -.350694448, y: -.270588249}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0046
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1632
+        width: 270
+        height: 342
+      alignment: 9
+      pivot: {x: -.529629648, y: -.578947365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0047
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1632
+        width: 270
+        height: 342
+      alignment: 9
+      pivot: {x: -.529629648, y: -.578947365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0048
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 1632
+        width: 270
+        height: 342
+      alignment: 9
+      pivot: {x: -.529629648, y: -.578947365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0049
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 1800
+        width: 176
+        height: 174
+      alignment: 9
+      pivot: {x: -1.40909088, y: -2.10344839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0050
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 1800
+        width: 176
+        height: 174
+      alignment: 9
+      pivot: {x: -1.40909088, y: -2.10344839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0051
+      rect:
+        serializedVersion: 2
+        x: 2908
+        y: 1800
+        width: 176
+        height: 174
+      alignment: 9
+      pivot: {x: -1.40909088, y: -2.10344839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0052
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 1903
+        width: 63
+        height: 71
+      alignment: 9
+      pivot: {x: -5.42857122, y: -6.60563374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0053
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 1903
+        width: 63
+        height: 71
+      alignment: 9
+      pivot: {x: -5.42857122, y: -6.60563374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_kite_png-seq-level1_kite0054
+      rect:
+        serializedVersion: 2
+        x: 3086
+        y: 1903
+        width: 63
+        height: 71
+      alignment: 9
+      pivot: {x: -5.42857122, y: -6.60563374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0001
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 1761
+        width: 338
+        height: 213
+      alignment: 9
+      pivot: {x: -1.15976334, y: 2.38028169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0002
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 1761
+        width: 338
+        height: 213
+      alignment: 9
+      pivot: {x: -1.15976334, y: 2.38028169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0003
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 1601
+        width: 413
+        height: 373
+      alignment: 9
+      pivot: {x: -.864406765, y: 1.35924935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0004
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 1601
+        width: 413
+        height: 373
+      alignment: 9
+      pivot: {x: -.864406765, y: 1.35924935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0005
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 1261
+        width: 652
+        height: 713
+      alignment: 9
+      pivot: {x: -.383435577, y: .711079955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0006
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 1261
+        width: 652
+        height: 713
+      alignment: 9
+      pivot: {x: -.383435577, y: .711079955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0007
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 788
+        height: 1000
+      alignment: 9
+      pivot: {x: -.200507611, y: .507000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0008
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 788
+        height: 1000
+      alignment: 9
+      pivot: {x: -.200507611, y: .507000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0009
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 788
+        height: 1000
+      alignment: 9
+      pivot: {x: -.200507611, y: .507000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0010
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 788
+        height: 1000
+      alignment: 9
+      pivot: {x: -.200507611, y: .507000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0011
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 111
+        width: 782
+        height: 891
+      alignment: 9
+      pivot: {x: -.191815853, y: .56902355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0012
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 111
+        width: 782
+        height: 891
+      alignment: 9
+      pivot: {x: -.191815853, y: .56902355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0013
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 111
+        width: 782
+        height: 891
+      alignment: 9
+      pivot: {x: -.191815853, y: .56902355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0014
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 111
+        width: 782
+        height: 891
+      alignment: 9
+      pivot: {x: -.191815853, y: .56902355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0015
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 50
+        width: 775
+        height: 952
+      alignment: 9
+      pivot: {x: -.20645161, y: .532563031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0016
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 50
+        width: 775
+        height: 952
+      alignment: 9
+      pivot: {x: -.20645161, y: .532563031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0017
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 50
+        width: 775
+        height: 952
+      alignment: 9
+      pivot: {x: -.20645161, y: .532563031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0018
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 50
+        width: 775
+        height: 952
+      alignment: 9
+      pivot: {x: -.20645161, y: .532563031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0019
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 16
+        width: 795
+        height: 986
+      alignment: 9
+      pivot: {x: -.201257855, y: .51419878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0020
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 16
+        width: 795
+        height: 986
+      alignment: 9
+      pivot: {x: -.201257855, y: .51419878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0021
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 16
+        width: 795
+        height: 986
+      alignment: 9
+      pivot: {x: -.201257855, y: .51419878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0022
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 16
+        width: 795
+        height: 986
+      alignment: 9
+      pivot: {x: -.201257855, y: .51419878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0023
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 132
+        width: 724
+        height: 870
+      alignment: 9
+      pivot: {x: -.207182318, y: .582758605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0024
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 132
+        width: 724
+        height: 870
+      alignment: 9
+      pivot: {x: -.207182318, y: .582758605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0025
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 132
+        width: 724
+        height: 870
+      alignment: 9
+      pivot: {x: -.207182318, y: .582758605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0026
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 132
+        width: 724
+        height: 870
+      alignment: 9
+      pivot: {x: -.207182318, y: .582758605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0027
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 28
+        width: 732
+        height: 974
+      alignment: 9
+      pivot: {x: -.210382506, y: .52053386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0028
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 28
+        width: 732
+        height: 974
+      alignment: 9
+      pivot: {x: -.210382506, y: .52053386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0029
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 28
+        width: 732
+        height: 974
+      alignment: 9
+      pivot: {x: -.210382506, y: .52053386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0030
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 28
+        width: 732
+        height: 974
+      alignment: 9
+      pivot: {x: -.210382506, y: .52053386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0031
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 788
+        height: 1000
+      alignment: 9
+      pivot: {x: -.200507611, y: .507000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0032
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 788
+        height: 1000
+      alignment: 9
+      pivot: {x: -.200507611, y: .507000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0033
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 788
+        height: 1000
+      alignment: 9
+      pivot: {x: -.200507611, y: .507000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0034
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 788
+        height: 1000
+      alignment: 9
+      pivot: {x: -.200507611, y: .507000029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0035
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 111
+        width: 782
+        height: 891
+      alignment: 9
+      pivot: {x: -.191815853, y: .56902355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0036
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 111
+        width: 782
+        height: 891
+      alignment: 9
+      pivot: {x: -.191815853, y: .56902355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0037
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 111
+        width: 782
+        height: 891
+      alignment: 9
+      pivot: {x: -.191815853, y: .56902355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0038
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 111
+        width: 782
+        height: 891
+      alignment: 9
+      pivot: {x: -.191815853, y: .56902355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0039
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 50
+        width: 775
+        height: 952
+      alignment: 9
+      pivot: {x: -.20645161, y: .532563031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0040
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 50
+        width: 775
+        height: 952
+      alignment: 9
+      pivot: {x: -.20645161, y: .532563031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0041
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 50
+        width: 775
+        height: 952
+      alignment: 9
+      pivot: {x: -.20645161, y: .532563031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0042
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 50
+        width: 775
+        height: 952
+      alignment: 9
+      pivot: {x: -.20645161, y: .532563031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0043
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 16
+        width: 795
+        height: 986
+      alignment: 9
+      pivot: {x: -.201257855, y: .51419878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0044
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 16
+        width: 795
+        height: 986
+      alignment: 9
+      pivot: {x: -.201257855, y: .51419878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0045
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 16
+        width: 795
+        height: 986
+      alignment: 9
+      pivot: {x: -.201257855, y: .51419878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0046
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 16
+        width: 795
+        height: 986
+      alignment: 9
+      pivot: {x: -.201257855, y: .51419878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0047
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 132
+        width: 724
+        height: 870
+      alignment: 9
+      pivot: {x: -.207182318, y: .582758605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0048
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 132
+        width: 724
+        height: 870
+      alignment: 9
+      pivot: {x: -.207182318, y: .582758605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0049
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 132
+        width: 724
+        height: 870
+      alignment: 9
+      pivot: {x: -.207182318, y: .582758605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0050
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 132
+        width: 724
+        height: 870
+      alignment: 9
+      pivot: {x: -.207182318, y: .582758605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0051
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 28
+        width: 732
+        height: 974
+      alignment: 9
+      pivot: {x: -.210382506, y: .52053386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0052
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 28
+        width: 732
+        height: 974
+      alignment: 9
+      pivot: {x: -.210382506, y: .52053386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0053
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 28
+        width: 732
+        height: 974
+      alignment: 9
+      pivot: {x: -.210382506, y: .52053386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: level1_oil_png-seq-level1_oil0054
+      rect:
+        serializedVersion: 2
+        x: 3876
+        y: 28
+        width: 732
+        height: 974
+      alignment: 9
+      pivot: {x: -.210382506, y: .52053386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

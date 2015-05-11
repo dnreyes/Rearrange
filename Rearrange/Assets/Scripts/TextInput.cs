@@ -8,13 +8,14 @@ public class TextInput: MonoBehaviour {
 	private string sInput;
 	public Text tInput;
 	public InputField iInput;
+	public Animation anim;
 
-	//get input from text field
-	//print input into textbox after pressing enter
-
+	//access Level1 stuff for animations
 
 	// Update is called once per frame
 	void Update () {
+		//anim = GetComponent<Animation>();
+		//anim.Stop ();
 		if (Input.GetKeyDown ("return")) {
 			//set the text field to be user input
 			tInput.text = iInput.text;
@@ -22,11 +23,8 @@ public class TextInput: MonoBehaviour {
 			sInput = iInput.text;
 		}
 
-        //Error???
-		/*else if (sInput.Equals("hole")) {
-			//set the text field to win state
-			tInput.text = "yay! you won!";
+        if (sInput != null) { //<-- yay no errors!
+			//do something
 		}
-        */
 	}
 }
