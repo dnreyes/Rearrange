@@ -6,33 +6,37 @@ using System.IO;
 
 public class WordManager : MonoBehaviour {
 
-  /*  public TextAsset WordAsset;
-    public static List<Item> words = new List<Item>{};
-    public List<Item> currWord = new List<Item>();
+    public TextAsset WordAsset;
+    public static List<string> words = new List<string>{};
 
-    private List<Dictionary<string, string>> wordDict = new List<Dictionary<string, string>>;
-    private Dictionary<string, string> obj;
-
-    string _FileLoc, _Filename;
+    //List<Dictionary<string, string>> wordDict = new List<Dictionary<string, string>>();
+    Dictionary<string, string> obj;
 
     void Start()
     {
-        _FileLoc = Application.datapath + "/Resources";
-        _Filename = "WordBank.xml";
+        print("This is going on.");
     }
 
     void ReadXML()
     {
+        print("Starting to Read");
         XmlDocument solution = new XmlDocument();
         solution.LoadXml(WordAsset.text);
-        XmlNodeList wordList = solution.GetElementsByTagName("Solutions1");
+        XmlNodeList wordList = solution.GetElementsByTagName("WordBank");
+
+        foreach (XmlNode wordInfo in wordList)
+        {
+            XmlNodeList wordContent = wordInfo.ChildNodes;
+            obj = new Dictionary<string, string>();
+
+            foreach (XmlNode content in wordContent)
+            {
+                if (content.Name == "LevelSolutions1")
+                {
+                    obj.Add("level1solutions", content.InnerText);
+                    print ("This is happening man");
+                }
+            }
+        }
     }
-
-    //Anything we want to store in a XML file
-    public class SolutionsUsed
-    {
-        public string _name;
-
-        public SolutionsUsed() { }
-    }*/
 }
