@@ -48,16 +48,27 @@ public class Level1 : MonoBehaviour {
 					Instantiate (key, new Vector3(-3.22F, 0.33F, 0), Quaternion.identity);
 					previous = input;
 					solution = true;
+                    StartCoroutine(ChangeLevel());
 				}
 				break;
 			case 2:
 				Instantiate (hole, new Vector3(-3.45F, 0.34F, 0), Quaternion.identity);
 				previous = input;
 				solution = true;
+                StartCoroutine(ChangeLevel());
 				break;
 			default:
 				break;
 			}
 		}
 	}
+
+    IEnumerator ChangeLevel()
+    {
+        yield return new WaitForSeconds(3.5f);
+        float fadeTime = GameObject.Find("_LevelManager").GetComponent<Fade>().BeginFade(1);
+
+        yield return new WaitForSeconds(fadeTime);
+        Application.LoadLevel(Application.loadedLevel + 1);
+    }
 }
