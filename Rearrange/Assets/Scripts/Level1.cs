@@ -5,11 +5,21 @@ using UnityEditor;
 
 public class Level1 : MonoBehaviour {
 
-	string[] solutions = {"cake", "key", "hole"};
+	string[] solutions = {"cake", "key", "hole", "cheese", "code", "dart", "delete", "oil", "kite"};
+
 	public GameObject cake;
 	public GameObject key;
 	public GameObject hole;
+	public GameObject cheese;
+	public GameObject code;
+	public GameObject dart;
+	public GameObject delete;
+	public GameObject oil;
+	public GameObject kite;
+
 	public Text tInput; //need to check after user presses enter
+
+	private GameObject onScreen = null;
 	private bool solution = false; //prevents creating infinte objects on update
 	private string previous;
 
@@ -26,6 +36,16 @@ public class Level1 : MonoBehaviour {
 		return index;
 	}
 
+	void displayAnim (GameObject gObject, float x, float y) {
+		if (onScreen != null) {
+			Destroy (onScreen);
+		}
+		//                //place it in the scene      //this means no rotation
+		gObject = GameObject.Instantiate (gObject, new Vector3 (x, y, 0), Quaternion.identity) as GameObject;
+		onScreen = gObject;
+		solution = true;
+	}
+
 	void Update() {
 		string input = tInput.text;
 		int index = checkInput (input);
@@ -38,24 +58,52 @@ public class Level1 : MonoBehaviour {
 		if (!solution) {
 			switch (index) {
 			case 0:
-			//                //place it in the scene      //this means no rotation
-				Instantiate (cake, new Vector3 (6.14F, 0.3F, 0), Quaternion.identity);
 				previous = input;
-				solution = true;
+				displayAnim(cake, 6.14F, 0.3F);
 				break;
 			case 1:
 				if (door.displayed) {
-					Instantiate (key, new Vector3(-3.22F, 0.33F, 0), Quaternion.identity);
 					previous = input;
+<<<<<<< HEAD
 					solution = true;
                     StartCoroutine(ChangeLevel());
+=======
+					displayAnim(key, -3.22F, 0.33F);
+>>>>>>> origin/master
 				}
 				break;
 			case 2:
-				Instantiate (hole, new Vector3(-3.45F, 0.34F, 0), Quaternion.identity);
 				previous = input;
+<<<<<<< HEAD
 				solution = true;
                 StartCoroutine(ChangeLevel());
+=======
+				displayAnim(hole, -3.45F, 0.34F);
+				break;
+			case 3:
+				previous = input;
+				displayAnim(cheese, 0.62F, 0.99F);
+				break;
+			case 4:
+				previous = input;
+				displayAnim(code, -3.29F, 1.07F);
+				break;
+			case 5:
+				previous = input;
+				displayAnim(dart, 0.59F, 0.36F);
+				break;
+			case 6:
+				previous = input;
+				displayAnim(delete, -2.44F, -2.37F);
+				break;
+			case 7:
+				previous = input;
+				displayAnim(oil, -4.08F, 2.2F);
+				break;
+			case 8:
+				previous = input;
+				displayAnim(kite, -2.31F, 0.36F);
+>>>>>>> origin/master
 				break;
 			default:
 				break;
