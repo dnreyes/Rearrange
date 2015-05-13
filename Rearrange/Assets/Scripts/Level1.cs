@@ -64,21 +64,16 @@ public class Level1 : MonoBehaviour {
 			case 1:
 				if (door.displayed) {
 					previous = input;
-<<<<<<< HEAD
 					solution = true;
-                    StartCoroutine(ChangeLevel());
-=======
 					displayAnim(key, -3.22F, 0.33F);
->>>>>>> origin/master
+                    StartCoroutine(ChangeLevel());
 				}
 				break;
 			case 2:
 				previous = input;
-<<<<<<< HEAD
 				solution = true;
-                StartCoroutine(ChangeLevel());
-=======
 				displayAnim(hole, -3.45F, 0.34F);
+                StartCoroutine(ChangeLevel());
 				break;
 			case 3:
 				previous = input;
@@ -87,6 +82,7 @@ public class Level1 : MonoBehaviour {
 			case 4:
 				previous = input;
 				displayAnim(code, -3.29F, 1.07F);
+                StartCoroutine(ChangeLevel());
 				break;
 			case 5:
 				previous = input;
@@ -95,6 +91,8 @@ public class Level1 : MonoBehaviour {
 			case 6:
 				previous = input;
 				displayAnim(delete, -2.44F, -2.37F);
+                StartCoroutine(ChangeLevel());
+
 				break;
 			case 7:
 				previous = input;
@@ -103,7 +101,6 @@ public class Level1 : MonoBehaviour {
 			case 8:
 				previous = input;
 				displayAnim(kite, -2.31F, 0.36F);
->>>>>>> origin/master
 				break;
 			default:
 				break;
@@ -115,7 +112,6 @@ public class Level1 : MonoBehaviour {
     {
         yield return new WaitForSeconds(3.5f);
         float fadeTime = GameObject.Find("_LevelManager").GetComponent<Fade>().BeginFade(1);
-
         yield return new WaitForSeconds(fadeTime);
         Application.LoadLevel(Application.loadedLevel + 1);
     }

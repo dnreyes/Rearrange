@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Fade.cs" />
-     <Compile Include="Assets\Scripts\KeyboardScript.cs" />
      <Compile Include="Assets\Scripts\Level1.cs" />
      <Compile Include="Assets\Scripts\SampleDoor.cs" />
      <Compile Include="Assets\Scripts\TextInput.cs" />
