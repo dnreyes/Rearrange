@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Fade.cs" />
      <Compile Include="Assets\Scripts\Level1.cs" />
+     <Compile Include="Assets\Scripts\LevelUI.cs" />
      <Compile Include="Assets\Scripts\SampleDoor.cs" />
      <Compile Include="Assets\Scripts\TextInput.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
