@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\SampleDoor.cs" />
      <Compile Include="Assets\Scripts\TextInput.cs" />
      <Compile Include="Assets\Scripts\Tile.cs" />
+     <Compile Include="Assets\Scripts\Tiles.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
      <Compile Include="Assets\Scripts\UIListOfWords.cs" />
      <Compile Include="Assets\Scripts\WordManager.cs" />

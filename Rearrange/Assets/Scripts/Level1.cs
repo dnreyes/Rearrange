@@ -8,6 +8,8 @@ public class Level1 : MonoBehaviour {
 	private string[] solutions = {"cake", "key", "hole", "cheese", "code", "dart", "delete", "oil", "kite"};
 	private string prompt = "There is a locked door";
 
+	public Camera gameCamera;
+
 	public GameObject cake;
 	public GameObject key;
 	public GameObject hole;
@@ -72,7 +74,7 @@ public class Level1 : MonoBehaviour {
 		int place = promptsize;
 		int border = 20;
 		int initalPos = 20;
-		int width = Camera.pixelWidth - border;
+		int width = gameCamera.pixelWidth - border;
 		bool extra = false; //check for need of new line
 
 		//if the prompt can fit in one line
