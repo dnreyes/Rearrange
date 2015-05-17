@@ -14,7 +14,7 @@ public class LevelUI : MonoBehaviour {
     }
 
     public PlayerStats playerStats = new PlayerStats();
-
+	public Image visualScore;
     public RectTransform scoreTransform;
     private float cachedY;
     private float minX;
@@ -33,6 +33,8 @@ public class LevelUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
+
+
 }
