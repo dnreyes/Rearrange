@@ -37,14 +37,55 @@ public class Level1 : MonoBehaviour {
 		return index;
 	}
 
+
+	//********* ANIMATIONS *********//
+
+	//Display words with animations
 	void displayAnim (GameObject gObject, float x, float y) {
 		if (onScreen != null) {
 			Destroy (onScreen);
 		}
-		//                //place it in the scene      //this means no rotation
+		//                                 //place it in the scene      //this means no rotation
 		gObject = GameObject.Instantiate (gObject, new Vector3 (x, y, 0), Quaternion.identity) as GameObject;
 		onScreen = gObject;
 		solution = true;
+	}
+
+	//********* PROMPT *********//
+
+	//calculates the prompt size to fit onto the camera/canvas
+	int calPromptSize() {
+		int length = 0;
+		
+		for (int i = 0; i < prompt.Length; i++) {
+			if (prompt [i] != ' ') {
+				length += 5;//approx size of tile
+			} else {
+				length += 2;//approx size of space inbetween words
+			}
+		}
+		return length;
+	}
+
+	//place prompt in scene
+	void displayPrompt(int promptsize) {
+		int place = promptsize;
+		int border = 20;
+		int initalPos = 20;
+		int width = Camera.pixelWidth - border;
+		bool extra = false; //check for need of new line
+
+		//if the prompt can fit in one line
+		if (width >= place) {
+			initalPos = (width - place) / 2;
+		} else {
+			extra = true;
+		}
+
+		//if the prompt is longer that width than create a new line
+		for (int i = 0; i < prompt.Length; i++) {
+			//go through prompt and place them in the scene
+		}
 	}
 
 	//mostly used for debugging
@@ -120,18 +161,5 @@ public class Level1 : MonoBehaviour {
         float fadeTime = GameObject.Find("_LevelManager").GetComponent<Fade>().BeginFade(1);
         yield return new WaitForSeconds(fadeTime);
         Application.LoadLevel(Application.loadedLevel + 1);
-    }
-
-	int calPromptSize() {
-		int length = 0;
-
-		for (int i = 0; i < prompt.Length; i++) {
-			if (prompt [i] != ' ') {
-				length += 5;
-			} else {
-				length += 2;
-			}
-		}
-		return length;
-	}
+    }	
 }
