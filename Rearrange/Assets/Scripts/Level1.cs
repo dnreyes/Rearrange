@@ -5,7 +5,8 @@ using UnityEditor;
 
 public class Level1 : MonoBehaviour {
 
-	string[] solutions = {"cake", "key", "hole", "cheese", "code", "dart", "delete", "oil", "kite"};
+	private string[] solutions = {"cake", "key", "hole", "cheese", "code", "dart", "delete", "oil", "kite"};
+	private string prompt = "There is a locked door";
 
 	public GameObject cake;
 	public GameObject key;
@@ -44,6 +45,11 @@ public class Level1 : MonoBehaviour {
 		gObject = GameObject.Instantiate (gObject, new Vector3 (x, y, 0), Quaternion.identity) as GameObject;
 		onScreen = gObject;
 		solution = true;
+	}
+
+	//mostly used for debugging
+	void Start() {
+		print (calPromptSize ());
 	}
 
 	void Update() {
@@ -115,4 +121,17 @@ public class Level1 : MonoBehaviour {
         yield return new WaitForSeconds(fadeTime);
         Application.LoadLevel(Application.loadedLevel + 1);
     }
+
+	int calPromptSize() {
+		int length = 0;
+
+		for (int i = 0; i < prompt.Length; i++) {
+			if (prompt [i] != ' ') {
+				length += 5;
+			} else {
+				length += 2;
+			}
+		}
+		return length;
+	}
 }
