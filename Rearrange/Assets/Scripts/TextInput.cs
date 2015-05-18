@@ -12,6 +12,8 @@ public class TextInput : MonoBehaviour
     public Text tInput;
     public InputField iInput;
     public List<string> solutionList;
+	GameObject wb = GameObject.Find("WordBank");
+	WordBankControls words = (WordBankControls) wb.GetComponent(typeof(WordBankControls));
 
     //get input from text field
     //print input into textbox after pressing enter
@@ -31,6 +33,7 @@ public class TextInput : MonoBehaviour
             tInput.text = iInput.text;
             //save user input in a string
             sInput = iInput.text;
+			words.AddWord(sInput);
         }
 
         if (sInput != null)
