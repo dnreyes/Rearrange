@@ -81,6 +81,7 @@ public class Level1 : MonoBehaviour {
 				break;
 			case 4:
 				previous = input;
+                solution = true; 
 				displayAnim(code, -3.29F, 1.07F);
                 StartCoroutine(ChangeLevel());
 				break;
