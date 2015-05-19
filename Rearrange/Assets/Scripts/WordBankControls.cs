@@ -24,8 +24,8 @@ public class WordBankControls : MonoBehaviour {
 			//only draws if the button is clicked.
 			GUI.contentColor = Color.black;
 			GUI.backgroundColor = Color.yellow;
-			GUI.Box (new Rect(0, 270, 800, 300), "Word Bank");
-			GUI.Label (new Rect (10, 300, 800, 300), previousWord );
+			GUI.Box (new Rect(0, 100, 800, 300), "Word Bank");
+			GUI.Label (new Rect (10, 110, 800, 300), previousWord );
 		}
 	}
 

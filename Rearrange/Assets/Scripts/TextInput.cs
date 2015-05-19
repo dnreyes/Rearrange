@@ -12,13 +12,14 @@ public class TextInput : MonoBehaviour
     public Text tInput;
     public InputField iInput;
     public List<string> solutionList;
-
+    public WordBankControls words;
     //get input from text field
     //print input into textbox after pressing enter
     void Start()
     {
         sInput = "";
         solutionList = new List<string>();
+        words = new WordBankControls();
     }
 
     // Update is called once per frame
@@ -31,6 +32,7 @@ public class TextInput : MonoBehaviour
             tInput.text = iInput.text;
             //save user input in a string
             sInput = iInput.text;
+            words.AddWord(iInput.text);
         }
 
         if (sInput != null)
