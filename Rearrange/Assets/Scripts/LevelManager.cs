@@ -7,6 +7,7 @@ using System.Collections.Generic;
  * Holds scores for each level
  * Stores the words already found
  */
+/*
 public class LevelManager : MonoBehaviour
 {
     private List<string> _potentialWords;
@@ -44,10 +45,11 @@ public class LevelManager : MonoBehaviour
             return;
         }
     }
-
+*/
     /**
      * Loads the level
      */
+/*
     public void load()
     {
         //call method to create game objects
@@ -57,4 +59,4 @@ public class LevelManager : MonoBehaviour
     {
 
     }
-}
+}*/

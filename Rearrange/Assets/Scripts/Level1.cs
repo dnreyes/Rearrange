@@ -17,13 +17,28 @@ public class Level1 : MonoBehaviour {
 	public GameObject oil;
 	public GameObject kite;
 
+    public GameObject ReplayButton;
+    public GameObject NextButton;
+
 	public Text tInput; //need to check after user presses enter
 
 	private GameObject onScreen = null;
 	private bool solution = false; //prevents creating infinte objects on update
 	private string previous;
 
+    private bool levelComplete = false; 
+
 	public SampleDoor door;
+
+    void Start()
+    {
+        if (!levelComplete)
+        {
+            Debug.Log("The buttons should be hiding right now");
+            ReplayButton.gameObject.SetActive(false);
+            NextButton.gameObject.SetActive(false);
+        }
+    }
 
 	int checkInput (string input) {
 		int index = -1;
@@ -40,7 +55,7 @@ public class Level1 : MonoBehaviour {
 		if (onScreen != null) {
 			Destroy (onScreen);
 		}
-		//                //place it in the scene      //this means no rotation
+		//place it in the scene      //this means no rotation
 		gObject = GameObject.Instantiate (gObject, new Vector3 (x, y, 0), Quaternion.identity) as GameObject;
 		onScreen = gObject;
 		solution = true;
@@ -66,14 +81,14 @@ public class Level1 : MonoBehaviour {
 					previous = input;
 					solution = true;
 					displayAnim(key, -3.22F, 0.33F);
-                    StartCoroutine(ChangeLevel());
+                    levelComplete = true;
 				}
 				break;
 			case 2:
 				previous = input;
 				solution = true;
 				displayAnim(hole, -3.45F, 0.34F);
-                StartCoroutine(ChangeLevel());
+                levelComplete = true;
 				break;
 			case 3:
 				previous = input;
@@ -83,7 +98,7 @@ public class Level1 : MonoBehaviour {
 				previous = input;
                 solution = true; 
 				displayAnim(code, -3.29F, 1.07F);
-                StartCoroutine(ChangeLevel());
+                levelComplete = true;
 				break;
 			case 5:
 				previous = input;
@@ -92,7 +107,7 @@ public class Level1 : MonoBehaviour {
 			case 6:
 				previous = input;
 				displayAnim(delete, -2.44F, -2.37F);
-                StartCoroutine(ChangeLevel());
+                levelComplete = true;
 
 				break;
 			case 7:
@@ -107,13 +122,21 @@ public class Level1 : MonoBehaviour {
 				break;
 			}
 		}
+
+        //Checking to see if a solution is found.
+        if (levelComplete)
+        {
+            //Show the next level and replay buttons after a few seconds
+            StartCoroutine(ShowButton());
+        }
 	}
 
-    IEnumerator ChangeLevel()
+    //IEnumerator Functions
+    IEnumerator ShowButton()
     {
         yield return new WaitForSeconds(3.5f);
-        float fadeTime = GameObject.Find("_LevelManager").GetComponent<Fade>().BeginFade(1);
-        yield return new WaitForSeconds(fadeTime);
-        Application.LoadLevel(Application.loadedLevel + 1);
+        ReplayButton.gameObject.SetActive(true);
+        NextButton.gameObject.SetActive(true);
     }
+
 }

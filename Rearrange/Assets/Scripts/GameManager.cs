@@ -7,7 +7,8 @@ using System.Collections.Generic;
  * Main menu and level screen
  * Achievements
  */
-public class GameManager : MonoBehaviour
+
+/*public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
 
@@ -103,6 +104,7 @@ public class GameManager : MonoBehaviour
     /*
      * Update function that runs every frame; Called within Unity
      */
+/*
     void Update()
     {
         //Calls to start game
@@ -116,4 +118,4 @@ public class GameManager : MonoBehaviour
             return;
         }
     }
-}
+}*/
