@@ -71,23 +71,40 @@ public class Level1 : MonoBehaviour {
 
 	//place prompt in scene
 	void displayPrompt(int promptsize) {
+		Tiles tiles = GetComponent<Tiles>();
 		int place = promptsize;
 		int border = 20;
-		int initalPos = 20;
+		int xPos = 20;
+		int yPos = 20;
 		int width = gameCamera.pixelWidth - border;
-		bool extra = false; //check for need of new line
 
 		//if the prompt can fit in one line
 		if (width >= place) {
-			initalPos = (width - place) / 2;
-		} else {
-			extra = true;
+			xPos = (width - place) / 2;
 		}
 
 		//if the prompt is longer that width than create a new line
-		for (int i = 0; i < prompt.Length; i++) {
-			//go through prompt and place them in the scene
-		}
+//		for (int i = 0; i < prompt.Length; i++) {
+//			//go through prompt and place them in the scene
+//			if (tiles.getTile(prompt[i]) == null) {
+//				xPos += 2; //add a space
+//				if (xPos > width) {
+//					place -= width;
+//					xPos = (width - place)/2;
+//					yPos += 6;
+//				}
+//			} else {
+//				GameObject tilePrompt = tiles.getTile(prompt[i]);
+//				tilePrompt = GameObject.Instantiate (tilePrompt, new Vector3 (xPos, yPos, 0), Quaternion.identity) 
+//					as GameObject;
+//				xPos += 5;
+//				if (xPos > width) {
+//					place -= width;
+//					xPos = (width - place)/2;
+//					yPos += 6;
+//				}
+//			}
+//		}
 	}
 
 	//mostly used for debugging
@@ -96,6 +113,7 @@ public class Level1 : MonoBehaviour {
 	}
 
 	void Update() {
+		//displayPrompt ();
 		string input = tInput.text;
 		int index = checkInput (input);
 
