@@ -19,6 +19,8 @@ public class Level1 : MonoBehaviour {
 
     public GameObject ReplayButton;
     public GameObject NextButton;
+    private GameObject ScoreBar;
+    private float score;
 
 	public Text tInput; //need to check after user presses enter
 
@@ -38,6 +40,10 @@ public class Level1 : MonoBehaviour {
             ReplayButton.gameObject.SetActive(false);
             NextButton.gameObject.SetActive(false);
         }
+        ScoreBar = GameObject.Find("_ScoreBar");
+        score = 0f;
+        ScoreBar.GetComponent<Score>().score = score;
+        Debug.Log("score: " + score);
     }
 
 	int checkInput (string input) {
@@ -75,12 +81,16 @@ public class Level1 : MonoBehaviour {
 			case 0:
 				previous = input;
 				displayAnim(cake, 6.14F, 0.3F);
+                score += 0.14f;
+                ScoreBar.GetComponent<Score>().score = score;
 				break;
 			case 1:
 				if (door.displayed) {
 					previous = input;
 					solution = true;
 					displayAnim(key, -3.22F, 0.33F);
+                    score += 0.314f;
+                    ScoreBar.GetComponent<Score>().score = score;
                     levelComplete = true;
 				}
 				break;
@@ -88,35 +98,49 @@ public class Level1 : MonoBehaviour {
 				previous = input;
 				solution = true;
 				displayAnim(hole, -3.45F, 0.34F);
+                score += 0.314f;
+                ScoreBar.GetComponent<Score>().score = score;
                 levelComplete = true;
 				break;
 			case 3:
 				previous = input;
 				displayAnim(cheese, 0.62F, 0.99F);
+                score += 0.16f;
+                ScoreBar.GetComponent<Score>().score = score;
 				break;
 			case 4:
 				previous = input;
                 solution = true; 
 				displayAnim(code, -3.29F, 1.07F);
+                score += 0.314f;
+                ScoreBar.GetComponent<Score>().score = score;
                 levelComplete = true;
 				break;
 			case 5:
 				previous = input;
 				displayAnim(dart, 0.59F, 0.36F);
+                score += 0.14f;
+                ScoreBar.GetComponent<Score>().score = score;
 				break;
 			case 6:
 				previous = input;
 				displayAnim(delete, -2.44F, -2.37F);
+                score += 0.314f;
+                ScoreBar.GetComponent<Score>().score = score;
                 levelComplete = true;
 
 				break;
 			case 7:
 				previous = input;
 				displayAnim(oil, -4.08F, 2.2F);
+                score += 0.13f;
+                ScoreBar.GetComponent<Score>().score = score;
 				break;
 			case 8:
 				previous = input;
 				displayAnim(kite, -2.31F, 0.36F);
+                score += 0.14f;
+                ScoreBar.GetComponent<Score>().score = score;
 				break;
 			default:
 				break;
