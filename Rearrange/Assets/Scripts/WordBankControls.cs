@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
 
 public class WordBankControls : MonoBehaviour {
 
 	private bool drawWordBank = false;
 	private static string wordToDisplay = "";
 	private static string previousWord = "";
+    private List<string> existingWords = new List<string>();
 
 	//slides from 570 (hiding) to 270 (showing)
 	private float offset = 570f;
@@ -35,9 +37,14 @@ public class WordBankControls : MonoBehaviour {
 	}
 
 	public void AddWord(System.Object wordToAdd) {
-		//adds the word
-		wordToDisplay = previousWord + wordToAdd.ToString () + "\n";
-		Debug.Log (wordToDisplay);
+		//adds the word to the wordbank ONLY if the word has not
+        //been used yet. Ignores the word if it has.
+        if (existingWords.IndexOf(wordToAdd.ToString().ToLower()) == -1)
+        {
+            wordToDisplay = previousWord + wordToAdd.ToString().ToLower() + "\n";
+            Debug.Log(wordToDisplay);
+            existingWords.Add(wordToAdd.ToString());
+        }
 	}
 
 	IEnumerator SlideIn() {
