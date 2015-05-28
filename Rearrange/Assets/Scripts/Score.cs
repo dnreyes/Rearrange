@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour {
 
     public float score = 0f;
+    private float fillRate = 0.2f;
     Image image;
     void Start()
     {
@@ -14,6 +15,11 @@ public class Score : MonoBehaviour {
     }
 
 	void Update () {
-        image.fillAmount = score;
+        image.fillAmount = Mathf.MoveTowards(image.fillAmount, score, fillRate*Time.deltaTime);
 	}
+
+    public int IncreaseScore(float currScore, bool isAnim, bool isSolution)
+    {
+        return 0;
+    }
 }
