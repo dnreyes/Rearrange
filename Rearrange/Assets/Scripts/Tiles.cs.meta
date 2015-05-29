@@ -1,10 +1,37 @@
 fileFormatVersion: 2
 guid: 03f16c6ae4bd54d5a86ab4b4bd9d5004
-timeCreated: 1431901374
+timeCreated: 1432860678
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - tileA: {fileID: 118560, guid: 312144b59e3614708a8b773e970cd886, type: 2}
+  - tileB: {fileID: 133640, guid: 1d9fc03aafe99425ba74170d1b45ae70, type: 2}
+  - tileC: {fileID: 115874, guid: f63f819c48a40433489f39b26a52c7aa, type: 2}
+  - tileD: {fileID: 104368, guid: 8102adb351cac49e88c58ea2c949ba28, type: 2}
+  - tileE: {fileID: 124304, guid: 147f365b8c7ec40ce9bcd67f67d66ba3, type: 2}
+  - tileF: {fileID: 145142, guid: ae0b74e77eaf040d3b9fba25536f82c6, type: 2}
+  - tileG: {fileID: 174580, guid: b52c25c8565ad41a28a7d1a1cdcf50e6, type: 2}
+  - tileH: {fileID: 172568, guid: eee69ea94cbd64c6fac5b931f8d27b7d, type: 2}
+  - tileI: {fileID: 129102, guid: 09d9d7035698e4d798651e5e8050690e, type: 2}
+  - tileJ: {fileID: 181788, guid: a581accae545c41d89010300628bd6fc, type: 2}
+  - tileK: {fileID: 151310, guid: e3605fb2ac8ad4948b01b105631a34ba, type: 2}
+  - tileL: {fileID: 186512, guid: 5a9f1ee3ac4434ac6910ef57123f7050, type: 2}
+  - tileM: {fileID: 155992, guid: 1da06342d83ce4c1f9c5b580c91d85e2, type: 2}
+  - tileN: {fileID: 120698, guid: 20b8571f58a3a47af825c60470710ab1, type: 2}
+  - tileO: {fileID: 170980, guid: e55c7252d65d94d379af082a4d415ad3, type: 2}
+  - tileP: {fileID: 165010, guid: 185dd3cf93c834c56907d321a8bf757f, type: 2}
+  - tileQ: {fileID: 102410, guid: 40f634c827ff0456797f939fdd597e94, type: 2}
+  - tileR: {fileID: 177340, guid: 247b679bdeee149d696fac321bf5720f, type: 2}
+  - tileS: {fileID: 151520, guid: 68840b45f5ce84b9eb8c8f25fa54d772, type: 2}
+  - tileT: {fileID: 191404, guid: 66276e1fc5a8849f4a92db53d07dedde, type: 2}
+  - tileU: {fileID: 117268, guid: d745b423a3145487aa9bc933141d8a44, type: 2}
+  - tileV: {fileID: 185284, guid: 08ce0dcbab08543fc894d8d9d4455895, type: 2}
+  - tileW: {fileID: 184802, guid: 3e185d9eaa81a46fca8e5cde91f419ea, type: 2}
+  - tileX: {fileID: 144344, guid: 91ed0cc05934040afbcd538867790f39, type: 2}
+  - tileY: {fileID: 168968, guid: 34e81f2f905124854b6d8c112397a144, type: 2}
+  - tileZ: {fileID: 102518, guid: 301217d67b5484c679812006e20a0495, type: 2}
+  - gameCamera: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

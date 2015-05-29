@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEditor;
@@ -8,7 +8,7 @@ public class Level1 : MonoBehaviour {
 	private string[] solutions = {"cake", "key", "hole", "cheese", "code", "dart", "delete", "oil", "kite"};
 	private string prompt = "There is a locked door";
 
-	public Camera gameCamera;
+	//public Camera gameCamera;
 
 	public GameObject cake;
 	public GameObject key;
@@ -27,6 +27,7 @@ public class Level1 : MonoBehaviour {
 	private string previous;
 
 	public SampleDoor door;
+	private Tiles gameTiles;
 
 	int checkInput (string input) {
 		int index = -1;
@@ -53,67 +54,14 @@ public class Level1 : MonoBehaviour {
 		solution = true;
 	}
 
-	//********* PROMPT *********//
-
-	//calculates the prompt size to fit onto the camera/canvas
-	int calPromptSize() {
-		int length = 0;
-		
-		for (int i = 0; i < prompt.Length; i++) {
-			if (prompt [i] != ' ') {
-				length += 5;//approx size of tile
-			} else {
-				length += 2;//approx size of space inbetween words
-			}
-		}
-		return length;
-	}
-
-	//place prompt in scene
-	void displayPrompt(int promptsize) {
-		Tiles tiles = GetComponent<Tiles>();
-		int place = promptsize;
-		int border = 20;
-		int xPos = 20;
-		int yPos = 20;
-		int width = gameCamera.pixelWidth - border;
-
-		//if the prompt can fit in one line
-		if (width >= place) {
-			xPos = (width - place) / 2;
-		}
-
-		//if the prompt is longer that width than create a new line
-//		for (int i = 0; i < prompt.Length; i++) {
-//			//go through prompt and place them in the scene
-//			if (tiles.getTile(prompt[i]) == null) {
-//				xPos += 2; //add a space
-//				if (xPos > width) {
-//					place -= width;
-//					xPos = (width - place)/2;
-//					yPos += 6;
-//				}
-//			} else {
-//				GameObject tilePrompt = tiles.getTile(prompt[i]);
-//				tilePrompt = GameObject.Instantiate (tilePrompt, new Vector3 (xPos, yPos, 0), Quaternion.identity) 
-//					as GameObject;
-//				xPos += 5;
-//				if (xPos > width) {
-//					place -= width;
-//					xPos = (width - place)/2;
-//					yPos += 6;
-//				}
-//			}
-//		}
-	}
 
 	//mostly used for debugging
 	void Start() {
-		print (calPromptSize ());
+
 	}
 
 	void Update() {
-		//displayPrompt ();
+
 		string input = tInput.text;
 		int index = checkInput (input);
 
