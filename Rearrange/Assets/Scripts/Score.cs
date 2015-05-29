@@ -7,10 +7,10 @@ public class Score : MonoBehaviour {
     public float score = 0f;
     private float fillRate = 0.2f;
     Image image;
+
     void Start()
     {
-         image = GetComponent<Image>();
-
+        image = GetComponent<Image>();
         image.fillAmount = 0f;
     }
 
@@ -18,8 +18,39 @@ public class Score : MonoBehaviour {
         image.fillAmount = Mathf.MoveTowards(image.fillAmount, score, fillRate*Time.deltaTime);
 	}
 
-    public int IncreaseScore(float currScore, bool isAnim, bool isSolution)
+    public float IncreaseScore(float currScore, string word, bool isAnim, bool isSolution)
     {
-        return 0;
+        float newScore = 0f;
+        float animScore = 0.01f;
+
+        if (isSolution)
+        {
+            //If they have no star yet
+            if (currScore == 0f || currScore < 0.27f)
+            {
+                newScore = 0.3132f;
+            }
+            //If they have one star
+            else if (currScore < 0.6f)
+            {
+                newScore = 0.645f;
+            }
+            //they have two stars
+            else newScore = 1f;
+        }
+        //This means that it is not a solution
+        //but it is animated
+        else if (isAnim && !isSolution)
+        {
+            float length = (float)word.Length*animScore;
+            Debug.Log(length);
+            newScore = length + animScore;
+        }
+        //It is not animated but a valid word
+        else
+        {
+            newScore = (float)word.Length * (0.001f);
+        }
+        return newScore;
     }
 }
