@@ -61,6 +61,13 @@ public class Tiles : MonoBehaviour {
 		return length;
 	}
 
+	float calNewLine(string prompt) {
+		//calculate if the prompt is longer than the width of the screen
+		//check if the newline will cut into the words
+		//calculate new prompt length withough cutting into the word
+		return 0;
+	}
+
 	public GameObject getTile (char letter) {
 		GameObject this_tile = null;
 //		for (int i = 0; i < letter_tiles.Length; i++) {
