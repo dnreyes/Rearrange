@@ -31,7 +31,7 @@ public class WordBankControls : MonoBehaviour {
 		}
 	}
 
-	public void LateUpdate() {
+	void LateUpdate() {
 		//clearing the string for the next word
 		previousWord = wordToDisplay;
 	}
