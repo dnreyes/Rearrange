@@ -9,6 +9,7 @@ public class TextInput : MonoBehaviour
 {
 
     private string sInput;
+    private string readInput;
     public Text tInput;
     public InputField iInput;
     public List<string> solutionList;
@@ -25,7 +26,7 @@ public class TextInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        ReadFromFile();
         if (Input.GetKeyDown("return"))
         {
             //set the text field to be user input
@@ -58,15 +59,27 @@ public class TextInput : MonoBehaviour
     private void ReadFromFile()
     {
         StreamReader reader = new StreamReader(@"C:\Users\adao1\Documents\GitHub\Rearrange\Rearrange\Assets\Scripts\LevelOne.txt"); // put in where the txt file is 
-        string s = reader.ReadLine();
-        while (s != null)
+        //string s = reader.ReadLine();
+        readInput = reader.ReadLine();
+        while (readInput != null)
         {
             //char[] delimiter = {':'}; //colon splits 
             //string[] fields = s.Split(delimiter);
-            solutionList.Add(s); //adds to solutionList //fix to take in two fields 
-            System.Console.WriteLine(s);
-            s = reader.ReadLine(); //test
+            solutionList.Add(readInput); //adds to solutionList //fix to take in two fields 
+            System.Console.WriteLine(readInput);
+            readInput = reader.ReadLine(); //test
+            CheckFromFile();
 
+        }
+    }
+
+    //Check Text Input with Text File
+    private void CheckFromFile()
+    {
+        if (readInput == sInput)
+        {
+            System.Console.WriteLine("Answer Good"); //Testing 
+            //Add score offset 
         }
     }
 }
