@@ -73,12 +73,6 @@ public class Level1 : MonoBehaviour {
 		solution = true;
 	}
 
-
-	//mostly used for debugging
-	void Start() {
-
-	}
-
 	void Update() {
 
 		string input = tInput.text;
