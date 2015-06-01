@@ -1,18 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Replay : MonoBehaviour {
+public class Replay : MonoBehaviour
+{
 
-    private bool replay = false;
-
-    void OnMouseDown()
+    public void ReplayLevel()
     {
+        Debug.Log("I am clicking replay");
         Application.LoadLevel(Application.loadedLevel);
-        replay = true;
-    }
-
-    public bool isReplay()
-    {
-        return replay;
     }
 }

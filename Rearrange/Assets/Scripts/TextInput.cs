@@ -11,8 +11,8 @@ public class TextInput : MonoBehaviour
     private string sInput;
     private string readInput;
     public Text tInput;
-    public List<string> solutionList;
-    public WordBankControls words;
+    private List<string> solutionList;
+    private WordBankControls words;
     //get input from text field
     //print input into textbox after pressing enter
     void Start()
@@ -25,6 +25,7 @@ public class TextInput : MonoBehaviour
 	public void changeText() {
 		Solution sCheck = this.GetComponent<Solution>();
 		tInput.text = sCheck.updateAnswer();
+        words.AddWord(tInput.text);
 	}
 
     //Save to Text File

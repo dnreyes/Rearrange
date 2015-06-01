@@ -10,9 +10,9 @@ public class WordBankControls : MonoBehaviour {
 	private static string previousWord = "";
     private List<string> existingWords = new List<string>();
 
-	void OnMouseDown() {
+	public void Click() {
 		//toggles between drawing and hiding word bank text
-		//Debug.Log ("clicking");
+	    Debug.Log ("clicking");
 		drawWordBank = !drawWordBank;
 	}
 

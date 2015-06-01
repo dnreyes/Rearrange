@@ -37,12 +37,10 @@ public class Level1 : MonoBehaviour {
 
     void Start()
     {
-        Replay checkReplay = ReplayButton.GetComponent<Replay>();
-        if (!levelComplete && !checkReplay.isReplay())
+        if (!levelComplete)
         {
             score = 0f;
             Debug.Log("The buttons should be hiding right now");
-            DontDestroyOnLoad(scoreBar);
             ReplayButton.gameObject.SetActive(false);
             NextButton.gameObject.SetActive(false);
         }

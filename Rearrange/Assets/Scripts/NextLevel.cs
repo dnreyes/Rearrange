@@ -3,7 +3,7 @@ using System.Collections;
 
 public class NextLevel : MonoBehaviour {
 
-    void OnMouseDown()
+    public void Click()
     {
         StartCoroutine(ChangeLevel());
     }
