@@ -10,7 +10,6 @@ public class TextInput : MonoBehaviour
 
     private string sInput;
     public Text tInput;
-    public InputField iInput;
     public List<string> solutionList;
 
     //get input from text field
@@ -21,23 +20,10 @@ public class TextInput : MonoBehaviour
         solutionList = new List<string>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-        if (Input.GetKeyDown("return"))
-        {
-            //set the text field to be user input
-            tInput.text = iInput.text;
-            //save user input in a string
-            sInput = iInput.text;
-        }
-
-        if (sInput != null)
-        { //<-- yay no errors!
-            //do something
-        }
-    }
+	public void changeText() {
+		Solution sCheck = this.GetComponent<Solution>();
+		tInput.text = sCheck.updateAnswer();
+	}
 
     //Save to Text File
     private void SaveToFile()

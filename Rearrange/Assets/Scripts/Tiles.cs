@@ -30,52 +30,26 @@ public class Tiles : MonoBehaviour {
 	public GameObject tileX;
 	public GameObject tileY;
 	public GameObject tileZ;
-	
+	public GameObject tileSpace;
+
 	public GameObject[] letter_tiles;
 
-	public string test = "this is a test";
-
-	public Camera gameCamera;
+	public string prompt = "this is a test";
 
 	private float tileSize = 1.02F;
 
 	void Start() {
 		letter_tiles = new GameObject[26]{tileA, tileB, tileC, tileD, tileE, tileF, tileG, tileH, tileI, tileJ, tileK, tileL, tileM,
 			tileN, tileO, tileP, tileQ, tileR, tileS, tileT, tileU, tileV, tileW, tileX, tileY, tileZ};
-		displayPrompt (test);
+		displayPrompt (prompt);
 	}
 
 	//********* PROMPT *********//
-	
-	//calculates the prompt size to fit onto the camera/canvas
-	float calPromptSize(string prompt) {
-		float length = 0F;
-		
-		for (int i = 0; i < prompt.Length; i++) {
-			if (prompt [i] != ' ') {
-				length += 1.02F;//approx size of tile
-			} else {
-				length += 0.5F;//approx size of space inbetween words
-			}
-		}
-		return length;
-	}
-
-	float calNewLine(string prompt) {
-		//calculate if the prompt is longer than the width of the screen
-		//check if the newline will cut into the words
-		//calculate new prompt length withough cutting into the word
-		return 0;
-	}
 
 	public GameObject getTile (char letter) {
+
 		GameObject this_tile = null;
-//		for (int i = 0; i < letter_tiles.Length; i++) {
-//			if (letter_tiles [i].tilename == letter) {
-//				return letter_tiles [i];
-//			}
-//		}
-//		return null;
+
 		switch (letter) {
 		case('a'):
 			this_tile = letter_tiles [0];
@@ -163,45 +137,28 @@ public class Tiles : MonoBehaviour {
 
 	//place prompt in scene
 	public void displayPrompt(string prompt) {
-		float place = calPromptSize(prompt);
-		print (place);
-		float border = 0.1F;
-		float xPos = 0F;
-		float yPos = 4F;
-		float width = 5/*600*/-(border*2);
 
-
-		//if the prompt can fit in one line
-		if (width >= place) {
-			xPos = ((width - place) / 2);
-		} else {
-			place -= width;
-			xPos = (width - place) / 2;
-			yPos -= tileSize;
-		}
-		
-		//if the prompt is longer that width than create a new line
 		for (int i = 0; i < prompt.Length; i++) {
-		//go through prompt and place them in the scene
 
 			if (getTile(prompt[i]) == null) {
-				xPos += 0.2F; //add a space
-				if (xPos > width) {
-					place -= (xPos + (tileSize/2));
-					xPos = (width - place)/2;
-					yPos -= tileSize;
-				}
+				GameObject tilePrompt = tileSpace;
+				tilePrompt = (GameObject)Instantiate(tilePrompt);
+				tilePrompt.transform.SetParent(this.transform);
+
 			} else {
+
 				GameObject tilePrompt = getTile(prompt[i]);
-				tilePrompt = GameObject.Instantiate (tilePrompt, new Vector3 (xPos, yPos, 0), Quaternion.identity) 
-					as GameObject;
-				xPos += tileSize;
-				if (xPos > width) {
-					place -= (xPos + (tileSize/2));
-					xPos = (width - place)/2;
-					yPos -= tileSize;
-				}
+				tilePrompt = (GameObject)Instantiate(tilePrompt);
+				tilePrompt.transform.SetParent(this.transform);
+
 			}
 		}
+	}
+
+	public void destroyTiles() {
+		for (int i = 0; i < this.transform.childCount; i++) {
+			Destroy(this.transform.GetChild(i).gameObject);
+		}
+		displayPrompt(prompt);
 	}
 }
