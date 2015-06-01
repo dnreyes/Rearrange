@@ -18,18 +18,12 @@ public class WordBankControls : MonoBehaviour {
 
 	void OnGUI() {
         int scaley = Screen.height / 2;
-        int yPos = Screen.height;
 		if (drawWordBank) {
 			//only draws if the button is clicked.
-
-            while (yPos > scaley)
-            {
                 GUI.contentColor = Color.black;
                 GUI.backgroundColor = Color.yellow;
-                GUI.Box(new Rect(0, yPos, Screen.width, yPos), "Word Bank");
-                GUI.Label(new Rect(10, (yPos + 10), Screen.width, yPos), previousWord);
-                yPos += 10;
-            }
+                GUI.Box(new Rect(0, scaley, Screen.width, scaley), "Word Bank");
+                GUI.Label(new Rect(10, (scaley + 10), Screen.width, scaley), previousWord);
 		}
 	}
 
