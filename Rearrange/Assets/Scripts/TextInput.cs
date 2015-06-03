@@ -26,7 +26,7 @@ public class TextInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ReadFromFile();
+        //ReadFromFile();
         if (Input.GetKeyDown("return"))
         {
             //set the text field to be user input

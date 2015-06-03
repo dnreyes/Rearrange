@@ -27,6 +27,11 @@ public class Level1 : MonoBehaviour {
     private bool levelComplete = false;
     private float score;
 	private string previous;
+    private AudioClip _codeSound;
+    private AudioClip _dartSound;
+    private AudioClip _deleteSound;
+    private AudioClip _kiteSound;
+    private AudioClip _laserSound; 
 
 	public SampleDoor door;
     public Score scoreBar;
@@ -41,6 +46,13 @@ public class Level1 : MonoBehaviour {
             NextButton.gameObject.SetActive(false);
         }
         scoreBar.score = score;
+
+        //Initialize sounds
+        _codeSound = (AudioClip)Resources.Load("Level_1_Code");
+        _dartSound = (AudioClip)Resources.Load("Level_1_Dart");
+        _deleteSound = (AudioClip)Resources.Load("Level_1_Delete");
+        _kiteSound = (AudioClip)Resources.Load("Level_1_Kite");
+        _laserSound = (AudioClip)Resources.Load("Level_1_Laser");
     }
 
 	int checkInput (string input) {
@@ -110,6 +122,7 @@ public class Level1 : MonoBehaviour {
 				previous = input;
                 solution = true; 
 				displayAnim(code, -3.29F, 1.07F);
+                AudioSource.PlayClipAtPoint(_codeSound, transform.position);
                 score = scoreBar.IncreaseScore(score, input, true, true);
                 scoreBar.score = score;
                 levelComplete = true;
@@ -117,12 +130,14 @@ public class Level1 : MonoBehaviour {
 			case 5:
 				previous = input;
 				displayAnim(dart, 0.59F, 0.36F);
+                AudioSource.PlayClipAtPoint(_dartSound, transform.position);
                 score += scoreBar.IncreaseScore(score, input, true, false);
                 scoreBar.score = score;
 				break;
 			case 6:
 				previous = input;
 				displayAnim(delete, -2.44F, -2.37F);
+                AudioSource.PlayClipAtPoint(_deleteSound, transform.position);
                 score = scoreBar.IncreaseScore(score, input, true, true);
                 scoreBar.score = score;
                 levelComplete = true;
@@ -136,6 +151,7 @@ public class Level1 : MonoBehaviour {
 			case 8:
 				previous = input;
 				displayAnim(kite, -2.31F, 0.36F);
+                AudioSource.PlayClipAtPoint(_kiteSound, transform.position);
                 score += scoreBar.IncreaseScore(score, input, true, false);
                 scoreBar.score = score;
 				break;
