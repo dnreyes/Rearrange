@@ -60,7 +60,7 @@
      <Compile Include="Assets\Scripts\UIListOfWords.cs" />
      <Compile Include="Assets\Scripts\WordBankControls.cs" />
      <Compile Include="Assets\Scripts\WordManager.cs" />
-     <None Include="Assets\Scripts\LevelOne.txt" />
+     <None Include="Assets\Resources\LevelOne.txt" />
      <None Include="Assets\Resources\WordBank.xml" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">

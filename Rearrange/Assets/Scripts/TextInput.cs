@@ -45,7 +45,7 @@ public class TextInput : MonoBehaviour
     //Save to Text File
     private void SaveToFile()
     {
-        StreamWriter writer = new StreamWriter(@"C:\Users\adao1\Documents\GitHub\Rearrange\Rearrange\Assets\Scripts\LevelOne.txt"); // where to find the text file 
+        StreamWriter writer = new StreamWriter(("LevelOne")); // where to find the text file 
         foreach (string b in solutionList)
         {
             string output = b;
@@ -58,7 +58,7 @@ public class TextInput : MonoBehaviour
     //Read from Text File 
     private void ReadFromFile()
     {
-        StreamReader reader = new StreamReader(@"C:\Users\adao1\Documents\GitHub\Rearrange\Rearrange\Assets\Scripts\LevelOne.txt"); // put in where the txt file is 
+        StreamReader reader = new StreamReader("LevelOne"); // put in where the txt file is 
         //string s = reader.ReadLine();
         readInput = reader.ReadLine();
         while (readInput != null)
