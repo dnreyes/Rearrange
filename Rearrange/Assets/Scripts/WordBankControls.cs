@@ -10,24 +10,20 @@ public class WordBankControls : MonoBehaviour {
 	private static string previousWord = "";
     private List<string> existingWords = new List<string>();
 
-	//slides from 570 (hiding) to 270 (showing)
-	private float offset = 570f;
-
-	void OnMouseDown() {
+	public void Click() {
 		//toggles between drawing and hiding word bank text
-		//Debug.Log ("clicking");
+	    Debug.Log ("clicking");
 		drawWordBank = !drawWordBank;
-		Debug.Log (drawWordBank);
 	}
 
 	void OnGUI() {
+        int scaley = Screen.height / 2;
 		if (drawWordBank) {
-			//StartCoroutine(SlideIn());
 			//only draws if the button is clicked.
-			GUI.contentColor = Color.black;
-			GUI.backgroundColor = Color.yellow;
-			GUI.Box (new Rect(0, 100, 800, 300), "Word Bank");
-			GUI.Label (new Rect (10, 110, 800, 300), previousWord );
+                GUI.contentColor = Color.black;
+                GUI.backgroundColor = Color.yellow;
+                GUI.Box(new Rect(0, scaley, Screen.width, scaley), "Word Bank");
+                GUI.Label(new Rect(10, (scaley + 10), Screen.width, scaley), previousWord);
 		}
 	}
 
@@ -45,13 +41,5 @@ public class WordBankControls : MonoBehaviour {
             Debug.Log(wordToDisplay);
             existingWords.Add(wordToAdd.ToString());
         }
-	}
-
-	IEnumerator SlideIn() {
-		for (int i = -10; i < 0; ++i) {
-			offset = 10 * i;
-			yield return new WaitForSeconds (0.1f);
-		}
-		offset = 570f;
 	}
 }

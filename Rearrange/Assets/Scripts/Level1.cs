@@ -1,11 +1,14 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using UnityEditor;
 
 public class Level1 : MonoBehaviour {
 
-	string[] solutions = {"cake", "key", "hole", "cheese", "code", "dart", "delete", "oil", "kite"};
+	private string[] solutions = {"cake", "key", "hole", "cheese", "code", "dart", "delete", "oil", "kite"};
+	private string prompt = "There is a locked door";
+
+	//public Camera gameCamera;
 
 	public GameObject cake;
 	public GameObject key;
@@ -25,7 +28,7 @@ public class Level1 : MonoBehaviour {
 	private GameObject onScreen = null;
 	private bool solution = false; //prevents creating infinte objects on update
     private bool levelComplete = false;
-    private float score;
+    private static float score;
 	private string previous;
     private AudioClip _codeSound;
     private AudioClip _dartSound;
@@ -34,7 +37,8 @@ public class Level1 : MonoBehaviour {
     private AudioClip _laserSound; 
 
 	public SampleDoor door;
-    public Score scoreBar;
+	private Tiles gameTiles;
+	public Score scoreBar;
 
     void Start()
     {
@@ -45,6 +49,7 @@ public class Level1 : MonoBehaviour {
             ReplayButton.gameObject.SetActive(false);
             NextButton.gameObject.SetActive(false);
         }
+<<<<<<< HEAD
         scoreBar.score = score;
 
         //Initialize sounds
@@ -53,6 +58,8 @@ public class Level1 : MonoBehaviour {
         _deleteSound = (AudioClip)Resources.Load("Level_1_Delete");
         _kiteSound = (AudioClip)Resources.Load("Level_1_Kite");
         _laserSound = (AudioClip)Resources.Load("Level_1_Laser");
+=======
+>>>>>>> origin/master
     }
 
 	int checkInput (string input) {
@@ -66,6 +73,10 @@ public class Level1 : MonoBehaviour {
 		return index;
 	}
 
+
+	//********* ANIMATIONS *********//
+
+	//Display words with animations
 	void displayAnim (GameObject gObject, float x, float y) {
 		if (onScreen != null) {
 			Destroy (onScreen);
@@ -77,6 +88,7 @@ public class Level1 : MonoBehaviour {
 	}
 
 	void Update() {
+
 		string input = tInput.text;
 		int index = checkInput (input);
 
@@ -107,7 +119,7 @@ public class Level1 : MonoBehaviour {
 			case 2:
 				previous = input;
 				solution = true;
-                displayAnim(hole, -3.45F, 0.34F);
+				displayAnim(hole, -3.45F, 0.34F);
                 score = scoreBar.IncreaseScore(score, input, true, true);
                 scoreBar.score = score;
                 levelComplete = true;
@@ -165,7 +177,7 @@ public class Level1 : MonoBehaviour {
         {
             //Show the next level and replay buttons after a few seconds
             StartCoroutine(ShowButton());
-        }
+	}
 	}
 
     //IEnumerator Functions
@@ -174,6 +186,6 @@ public class Level1 : MonoBehaviour {
         yield return new WaitForSeconds(3.5f);
         ReplayButton.gameObject.SetActive(true);
         NextButton.gameObject.SetActive(true);
-    }
+    }	
 
 }

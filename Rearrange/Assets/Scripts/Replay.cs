@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Replay : MonoBehaviour {
+public class Replay : MonoBehaviour
+{
 
-    void OnMouseDown()
+    public void ReplayLevel()
     {
+        Debug.Log("I am clicking replay");
         Application.LoadLevel(Application.loadedLevel);
     }
 }

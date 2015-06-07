@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
@@ -11,9 +11,8 @@ public class TextInput : MonoBehaviour
     private string sInput;
     private string readInput;
     public Text tInput;
-    public InputField iInput;
-    public List<string> solutionList;
-    public WordBankControls words;
+    private List<string> solutionList;
+    private WordBankControls words;
     //get input from text field
     //print input into textbox after pressing enter
     void Start()
@@ -23,6 +22,7 @@ public class TextInput : MonoBehaviour
         words = new WordBankControls();
     }
 
+<<<<<<< HEAD
     // Update is called once per frame
     void Update()
     {
@@ -41,6 +41,13 @@ public class TextInput : MonoBehaviour
             //do something
         }
     }
+=======
+	public void changeText() {
+		Solution sCheck = this.GetComponent<Solution>();
+		tInput.text = sCheck.updateAnswer();
+        words.AddWord(tInput.text);
+	}
+>>>>>>> origin/master
 
     //Save to Text File
     private void SaveToFile()
@@ -80,6 +87,6 @@ public class TextInput : MonoBehaviour
         {
             System.Console.WriteLine("Answer Good"); //Testing 
             //Add score offset 
-        }
+}
     }
 }

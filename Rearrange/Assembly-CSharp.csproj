@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Draggable.cs" />
+     <Compile Include="Assets\Scripts\Droppable.cs" />
      <Compile Include="Assets\Scripts\Fade.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Level1.cs" />
@@ -54,10 +56,10 @@
      <Compile Include="Assets\Scripts\Replay.cs" />
      <Compile Include="Assets\Scripts\SampleDoor.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\Solution.cs" />
      <Compile Include="Assets\Scripts\TextInput.cs" />
      <Compile Include="Assets\Scripts\Tiles.cs" />
      <Compile Include="Assets\Scripts\TouchController.cs" />
-     <Compile Include="Assets\Scripts\UIListOfWords.cs" />
      <Compile Include="Assets\Scripts\WordBankControls.cs" />
      <Compile Include="Assets\Scripts\WordManager.cs" />
      <None Include="Assets\Resources\LevelOne.txt" />
