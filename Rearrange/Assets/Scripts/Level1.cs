@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-using UnityEditor;
 
 public class Level1 : MonoBehaviour {
 
@@ -30,6 +29,7 @@ public class Level1 : MonoBehaviour {
     private bool levelComplete = false;
     private static float score;
 	private string previous;
+
     private AudioClip _codeSound;
     private AudioClip _dartSound;
     private AudioClip _deleteSound;
@@ -45,21 +45,15 @@ public class Level1 : MonoBehaviour {
         if (!levelComplete)
         {
             score = 0f;
-            Debug.Log("The buttons should be hiding right now");
+            //Debug.Log("The buttons should be hiding right now");
             ReplayButton.gameObject.SetActive(false);
             NextButton.gameObject.SetActive(false);
         }
-<<<<<<< HEAD
-        scoreBar.score = score;
-
-        //Initialize sounds
         _codeSound = (AudioClip)Resources.Load("Level_1_Code");
         _dartSound = (AudioClip)Resources.Load("Level_1_Dart");
         _deleteSound = (AudioClip)Resources.Load("Level_1_Delete");
         _kiteSound = (AudioClip)Resources.Load("Level_1_Kite");
         _laserSound = (AudioClip)Resources.Load("Level_1_Laser");
-=======
->>>>>>> origin/master
     }
 
 	int checkInput (string input) {

@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
-using UnityEditor;
 using System.IO;
 
 public class TextInput : MonoBehaviour
@@ -22,32 +21,11 @@ public class TextInput : MonoBehaviour
         words = new WordBankControls();
     }
 
-<<<<<<< HEAD
-    // Update is called once per frame
-    void Update()
-    {
-        //ReadFromFile();
-        if (Input.GetKeyDown("return"))
-        {
-            //set the text field to be user input
-            tInput.text = iInput.text;
-            //save user input in a string
-            sInput = iInput.text;
-            words.AddWord(iInput.text);
-        }
-
-        if (sInput != null)
-        { //<-- yay no errors!
-            //do something
-        }
-    }
-=======
 	public void changeText() {
 		Solution sCheck = this.GetComponent<Solution>();
 		tInput.text = sCheck.updateAnswer();
         words.AddWord(tInput.text);
 	}
->>>>>>> origin/master
 
     //Save to Text File
     private void SaveToFile()
@@ -83,7 +61,7 @@ public class TextInput : MonoBehaviour
     //Check Text Input with Text File
     private void CheckFromFile()
     {
-        if (readInput == sInput)
+        if (readInput == tInput.text)
         {
             System.Console.WriteLine("Answer Good"); //Testing 
             //Add score offset 
