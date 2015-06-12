@@ -12,6 +12,7 @@ public class TextInput : MonoBehaviour
     public Text tInput;
     private List<string> solutionList;
     private WordBankControls words;
+    public Score score;
     //get input from text field
     //print input into textbox after pressing enter
     void Start()
@@ -24,8 +25,8 @@ public class TextInput : MonoBehaviour
 	public void changeText() {
 		Solution sCheck = this.GetComponent<Solution>();
 		tInput.text = sCheck.updateAnswer();
-        words.AddWord(tInput.text);
-	}
+        ReadFromFile();
+    }
 
     //Save to Text File
     private void SaveToFile()
@@ -43,28 +44,39 @@ public class TextInput : MonoBehaviour
     //Read from Text File 
     private void ReadFromFile()
     {
-        StreamReader reader = new StreamReader("LevelOne"); // put in where the txt file is 
+        string filename = Path.GetFileName(Application.dataPath + "/LevelOne.txt");
+        StreamReader reader = new StreamReader(filename); // put in where the txt file is 
         //string s = reader.ReadLine();
+        Debug.Log("tInput: " + tInput.text);
         readInput = reader.ReadLine();
-        while (readInput != null)
+        while (readInput != null && !CheckFromFile(readInput))
         {
             //char[] delimiter = {':'}; //colon splits 
             //string[] fields = s.Split(delimiter);
             solutionList.Add(readInput); //adds to solutionList //fix to take in two fields 
             System.Console.WriteLine(readInput);
             readInput = reader.ReadLine(); //test
-            CheckFromFile();
-
         }
     }
 
     //Check Text Input with Text File
-    private void CheckFromFile()
+    private bool CheckFromFile(string input)
     {
-        if (readInput == tInput.text)
+        //Debug.Log(input.ToLower());
+        if (input.ToLower() == tInput.text)
         {
-            System.Console.WriteLine("Answer Good"); //Testing 
+            Debug.Log("Answer good.");
+            words.AddWord(tInput.text);
+            if (tInput.text != "cake" || tInput.text != "oil" || tInput.text != "kite" || tInput.text != "cheese" || tInput.text != "delete" || tInput.text != "key" || tInput.text != "code" || tInput.text != "hole" || tInput.text != "dart")
+            {
+                Debug.Log("I'm in here!");
+                score.score += score.IncreaseScore(score.score, tInput.text, false, false);
+                Debug.Log("Score: " + score.score);
+            }
+            return true;
+            //System.Console.WriteLine("Answer Good"); //Testing 
             //Add score offset 
-}
+        }
+        return false;
     }
 }

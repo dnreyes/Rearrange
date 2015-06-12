@@ -13,13 +13,14 @@ public class SampleDoor : MonoBehaviour {
 		print("YELLOW");
 		if (!displayed) {
 			displayText.text = displayText.text + "\nyellow";
-			displayed = true;
+			//displayed = true;
 		}
 
-		if (prompt != null) {
+		if (prompt != null && !displayed) {
 			Tiles t = prompt.GetComponent<Tiles>();
 			t.prompt += " yellow";
 			t.displayPrompt(" yellow");
+            displayed = true;
 		}
 	}
 }

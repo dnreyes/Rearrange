@@ -34,7 +34,7 @@ public class Level1 : MonoBehaviour {
     private AudioClip _dartSound;
     private AudioClip _deleteSound;
     private AudioClip _kiteSound;
-    private AudioClip _laserSound; 
+    private AudioClip _laserSound;
 
 	public SampleDoor door;
 	private Tiles gameTiles;

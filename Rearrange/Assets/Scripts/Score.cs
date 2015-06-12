@@ -52,7 +52,7 @@ public class Score : MonoBehaviour {
             //It is not animated but a valid word
             else
             {
-                newScore = (float)word.Length * (0.001f);
+                newScore = (float)word.Length * (0.01f);
             }
             wordUsed.Add(word.ToString());
         }
