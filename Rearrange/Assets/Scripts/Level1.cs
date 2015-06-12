@@ -106,6 +106,7 @@ public class Level1 : MonoBehaviour {
 					solution = true;
 					displayAnim(key, -3.22F, 0.33F);
                     score = scoreBar.IncreaseScore(score, input, true, true);
+                    Debug.Log(score);
                     scoreBar.score = score;
                     levelComplete = true;
 				}

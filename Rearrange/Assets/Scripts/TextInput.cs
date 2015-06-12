@@ -67,11 +67,19 @@ public class TextInput : MonoBehaviour
         {
             Debug.Log("Answer good.");
             words.AddWord(tInput.text);
-            if (tInput.text != "cake" || tInput.text != "oil" || tInput.text != "kite" || tInput.text != "cheese" || tInput.text != "delete" || tInput.text != "key" || tInput.text != "code" || tInput.text != "hole" || tInput.text != "dart")
+            Debug.Log(tInput.text);
+            if (tInput.text != "cake" || tInput.text != "oil" || tInput.text != "kite" || tInput.text != "cheese" || tInput.text != "delete" || tInput.text != "code" || tInput.text != "hole" || tInput.text != "dart")
             {
                 Debug.Log("I'm in here!");
-                score.score += score.IncreaseScore(score.score, tInput.text, false, false);
-                Debug.Log("Score: " + score.score);
+                if (tInput.text == "key")
+                {
+                    //do nothing
+                }
+                else
+                {
+                    score.score += score.IncreaseScore(score.score, tInput.text, false, false);
+                    Debug.Log("Score: " + score.score);
+                }
             }
             return true;
             //System.Console.WriteLine("Answer Good"); //Testing 
