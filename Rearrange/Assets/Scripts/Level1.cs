@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class Level1 : MonoBehaviour {
 
 	private string[] solutions = {"cake", "key", "hole", "cheese", "code", "dart", "delete", "oil", "kite"};
-	private string prompt = "There is a locked door";
+	//private string prompt = "There is a locked door";
 
 	//public Camera gameCamera;
 
@@ -34,7 +34,7 @@ public class Level1 : MonoBehaviour {
     private AudioClip _dartSound;
     private AudioClip _deleteSound;
     private AudioClip _kiteSound;
-    private AudioClip _laserSound;
+    //private AudioClip _laserSound;
 
 	public SampleDoor door;
 	private Tiles gameTiles;
@@ -53,7 +53,7 @@ public class Level1 : MonoBehaviour {
         _dartSound = (AudioClip)Resources.Load("Level_1_Dart");
         _deleteSound = (AudioClip)Resources.Load("Level_1_Delete");
         _kiteSound = (AudioClip)Resources.Load("Level_1_Kite");
-        _laserSound = (AudioClip)Resources.Load("Level_1_Laser");
+        //_laserSound = (AudioClip)Resources.Load("Level_1_Laser");
     }
 
 	int checkInput (string input) {

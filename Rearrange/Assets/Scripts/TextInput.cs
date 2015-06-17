@@ -7,19 +7,19 @@ using System.IO;
 public class TextInput : MonoBehaviour
 {
 
-    private string sInput;
+    //private string sInput;
     private string readInput;
     public Text tInput;
     private List<string> solutionList;
-    private WordBankControls words;
+    public WordBankControls words;
     public Score score;
     //get input from text field
     //print input into textbox after pressing enter
     void Start()
     {
-        sInput = "";
+        //sInput = "";
         solutionList = new List<string>();
-        words = new WordBankControls();
+        //words = new WordBankControls();
     }
 
 	public void changeText() {

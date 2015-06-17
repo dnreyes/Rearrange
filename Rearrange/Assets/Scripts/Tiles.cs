@@ -36,7 +36,7 @@ public class Tiles : MonoBehaviour {
 
 	public string prompt = "this is a test";
 
-	private float tileSize = 1.02F;
+	//private float tileSize = 1.02F;
 
 	void Start() {
 		letter_tiles = new GameObject[26]{tileA, tileB, tileC, tileD, tileE, tileF, tileG, tileH, tileI, tileJ, tileK, tileL, tileM,

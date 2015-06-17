@@ -12,7 +12,7 @@ public class WordBankControls : MonoBehaviour {
 
 	public void Click() {
 		//toggles between drawing and hiding word bank text
-	    Debug.Log ("clicking");
+	    //Debug.Log ("clicking");
 		drawWordBank = !drawWordBank;
 	}
 
@@ -20,7 +20,7 @@ public class WordBankControls : MonoBehaviour {
         int scaley = Screen.height / 2;
 		if (drawWordBank) {
 			//only draws if the button is clicked.
-                GUI.contentColor = Color.black;
+                GUI.contentColor = Color.white;
                 GUI.backgroundColor = Color.yellow;
                 GUI.Box(new Rect(0, scaley, Screen.width, scaley), "Word Bank");
                 GUI.Label(new Rect(10, (scaley + 10), Screen.width, scaley), previousWord);
@@ -38,7 +38,7 @@ public class WordBankControls : MonoBehaviour {
         if (existingWords.IndexOf(wordToAdd.ToString().ToLower()) == -1)
         {
             wordToDisplay = previousWord + wordToAdd.ToString().ToLower() + "\n";
-            Debug.Log(wordToDisplay);
+            Debug.Log("wordToDispay: " + wordToDisplay + "\nwordToAdd: " + wordToAdd);
             existingWords.Add(wordToAdd.ToString());
         }
 	}
